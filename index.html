@@ -90,13 +90,13 @@
     function iterateDOM(selector, callback){
       return Array.prototype.slice.call(document.querySelectorAll(selector)).map(callback);
     }
-    
+
     function renderWords(words){
       var tableHTML = words.map(row => {
         return `<tr>
           <td><span class="chinese" data-text="${row.chinese}">${row.chinese}</span></td>
           <td>${row.pinyin}</td>
-          <td>${row.translation}</td>
+          <td>${row.russian}</td>
         </tr>`;
       }).join('\n');
 
@@ -129,7 +129,7 @@
 
     function prepareSearchDict(){
       window.words = window.words.map(item => {
-        item.search = normalizeStr(item.chinese + ' ' + item.pinyin + ' ' + item.translation);
+        item.search = normalizeStr(item.chinese + ' ' + item.pinyin + ' ' + item.russian);
         return item;
       });
     }

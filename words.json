@@ -2,823 +2,960 @@
   {
     "chinese": "你",
     "pinyin": "nǐ",
-    "translation": "ты",
+    "russian": "ты",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "好",
     "pinyin": "hǎo",
-    "translation": "хороший; хорошо",
+    "russian": "хороший; хорошо",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "吗",
     "pinyin": "ma",
-    "translation": "⟨вопросительная частица⟩",
+    "russian": "⟨вопросительная частица⟩",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "你好",
     "pinyin": "nǐ hǎo",
-    "translation": "привет",
+    "russian": "привет",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "你好吗？",
     "pinyin": "nǐ hǎo ma?",
-    "translation": "Как дела?",
+    "russian": "Как дела?",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "我",
     "pinyin": "wǒ",
-    "translation": "я",
+    "russian": "я",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "很",
     "pinyin": "hěn",
-    "translation": "очень; ⟨заменитель сказуемого⟩",
+    "russian": "очень; ⟨заменитель сказуемого⟩",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "呢",
     "pinyin": "ne",
-    "translation": "⟨вопросительная частица⟩",
+    "russian": "⟨вопросительная частица⟩",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "也",
     "pinyin": "yě",
-    "translation": "тоже",
+    "russian": "тоже",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "忙",
     "pinyin": "máng",
-    "translation": "занятой",
+    "russian": "занятой",
+    "radicals": "",
     "lesson": 2
   },
   {
     "chinese": "爸爸",
     "pinyin": "bàba",
-    "translation": "папа",
+    "russian": "папа",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "妈妈",
     "pinyin": "māma",
-    "translation": "мама",
+    "russian": "мама",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "他",
     "pinyin": "tā",
-    "translation": "он",
+    "russian": "он",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "她",
     "pinyin": "tā",
-    "translation": "она",
+    "russian": "она",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "他们",
     "pinyin": "tāmen",
-    "translation": "они",
+    "russian": "они",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "们",
     "pinyin": "men",
-    "translation": "⟨частица множественного числа, только для обозначения людей⟩",
+    "russian": "⟨частица множественного числа, только для обозначения людей⟩",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "我们",
     "pinyin": "wǒmen",
-    "translation": "мы",
+    "russian": "мы",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "你们",
     "pinyin": "nǐmen",
-    "translation": "вы (мн. число)",
+    "russian": "вы (мн. число)",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "您",
     "pinyin": "nín",
-    "translation": "вы (уважительное; ед. число)",
+    "russian": "вы (уважительное; ед. число)",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "都",
     "pinyin": "dōu",
-    "translation": "все",
+    "russian": "все",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "不",
     "pinyin": "bù",
-    "translation": "не",
+    "russian": "не",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "男",
     "pinyin": "nán",
-    "translation": "мужской",
+    "russian": "мужской",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "朋友",
     "pinyin": "péngyou",
-    "translation": "друг",
+    "russian": "друг",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "男朋友",
     "pinyin": "nán péngyou",
-    "translation": "парень (отношения)",
+    "russian": "парень (отношения)",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "女朋友",
     "pinyin": "nǚ péngyou",
-    "translation": "девушка (отношения)",
+    "russian": "девушка (отношения)",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "哥哥",
     "pinyin": "gēge",
-    "translation": "старший брат",
+    "russian": "старший брат",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "弟弟",
     "pinyin": "dìdi",
-    "translation": "младший брат",
+    "russian": "младший брат",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "要",
     "pinyin": "yào",
-    "translation": "хотеть; надо; нужно",
+    "russian": "хотеть; надо; нужно",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "咖啡",
     "pinyin": "kāfēi",
-    "translation": "кофе",
+    "russian": "кофе",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "喝",
     "pinyin": "hē",
-    "translation": "пить",
+    "russian": "пить",
+    "radicals": "",
     "lesson": 4
   },
   {
     "chinese": "是",
     "pinyin": "shì",
-    "translation": "быть; являться",
+    "russian": "быть; являться",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "哪",
     "pinyin": "nǎ",
-    "translation": "который; какой из",
+    "russian": "который; какой из",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "国",
     "pinyin": "guó",
-    "translation": "страна; государство",
+    "russian": "страна; государство",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "人",
     "pinyin": "rén",
-    "translation": "человек",
+    "russian": "человек",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "那",
     "pinyin": "nà",
-    "translation": "то; тот",
+    "russian": "то; тот",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "谁",
     "pinyin": "shéi",
-    "translation": "кто",
+    "russian": "кто",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "老",
     "pinyin": "lǎo",
-    "translation": "старый",
+    "russian": "старый",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "师",
     "pinyin": "shī",
-    "translation": "мастер ⟨отдельно не употребляется⟩",
+    "russian": "мастер ⟨отдельно не употребляется⟩",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "老师",
     "pinyin": "lǎoshī",
-    "translation": "учитель",
+    "russian": "учитель",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "中",
     "pinyin": "zhōng",
-    "translation": "середина",
+    "russian": "середина",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "中国",
     "pinyin": "zhōngguó",
-    "translation": "Китай",
+    "russian": "Китай",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "中国人",
     "pinyin": "zhōngguórén",
-    "translation": "китаец",
+    "russian": "китаец",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "这",
     "pinyin": "zhè",
-    "translation": "это",
+    "russian": "это",
+    "radicals": "",
     "lesson": 6
   },
   {
     "chinese": "外",
     "pinyin": "wài",
-    "translation": "внешний",
+    "russian": "внешний",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "语",
     "pinyin": "yǔ",
-    "translation": "язык ⟨отдельно не употребляется⟩",
+    "russian": "язык ⟨отдельно не употребляется⟩",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "外语",
     "pinyin": "wàiyǔ",
-    "translation": "иностранный язык",
+    "russian": "иностранный язык",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "医",
     "pinyin": "yī",
-    "translation": "медицина",
+    "russian": "медицина",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "生",
     "pinyin": "shēng",
-    "translation": "рожать; рождаться",
+    "russian": "рожать; рождаться",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "医生",
     "pinyin": "yīshēng",
-    "translation": "врач; доктор",
+    "russian": "врач; доктор",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "奶奶",
     "pinyin": "nǎinai",
-    "translation": "бабушка по отцовской линии",
+    "russian": "бабушка по отцовской линии",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "外婆",
     "pinyin": "wàipó",
-    "translation": "бабушка по материнской линии",
+    "russian": "бабушка по материнской линии",
+    "radicals": "",
     "lesson": 7
   },
   {
     "chinese": "认识",
     "pinyin": "rènshi",
-    "translation": "быть знакомым с кем-то",
+    "russian": "быть знакомым с кем-то",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "高",
     "pinyin": "gāo",
-    "translation": "высокий",
+    "russian": "высокий",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "兴",
     "pinyin": "xìng",
-    "translation": "интерес",
+    "russian": "интерес",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "高兴",
     "pinyin": "gāoxìng",
-    "translation": "радостный; счастливый",
+    "russian": "радостный; счастливый",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "可以",
     "pinyin": "kěyǐ",
-    "translation": "можно ⟨модальный глагол⟩",
+    "russian": "можно ⟨модальный глагол⟩",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "进",
     "pinyin": "jìn",
-    "translation": "входить",
+    "russian": "входить",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "来",
     "pinyin": "lái",
-    "translation": "приходить; приезжать",
+    "russian": "приходить; приезжать",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "进来",
     "pinyin": "jìnlái",
-    "translation": "входить (именно вот сюда)",
+    "russian": "входить (именно вот сюда)",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "请",
     "pinyin": "qǐng",
-    "translation": "пожалуйста; приглашать; просить",
+    "russian": "пожалуйста; приглашать; просить",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "记",
     "pinyin": "jì",
-    "translation": "записывать",
+    "russian": "записывать",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "者",
     "pinyin": "zhě",
-    "translation": "⟨окончание профессий⟩",
+    "russian": "⟨окончание профессий⟩",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "记者",
     "pinyin": "jìzhě",
-    "translation": "журналист; репортер",
+    "russian": "журналист; репортер",
+    "radicals": "",
     "lesson": 8
   },
   {
     "chinese": "问",
     "pinyin": "wèn",
-    "translation": "спрашивать",
+    "russian": "спрашивать",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "请问",
     "pinyin": "qǐngwèn",
-    "translation": "Позвольте спросить?; Скажите, пожалуйста?",
+    "russian": "Позвольте спросить?; Скажите, пожалуйста?",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "姓",
     "pinyin": "xìng",
-    "translation": "фамилия",
+    "russian": "фамилия",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "贵",
     "pinyin": "guì",
-    "translation": "дорогой",
+    "russian": "дорогой",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "叫",
     "pinyin": "jiào",
-    "translation": "звать кого-то",
+    "russian": "звать кого-то",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "我叫",
     "pinyin": "wǒ jiào",
-    "translation": "меня зовут...",
+    "russian": "меня зовут...",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "先生",
     "pinyin": "xiānshēng",
-    "translation": "господин; мистер",
+    "russian": "господин; мистер",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "杨",
     "pinyin": "Yáng",
-    "translation": "Янг ⟨распространенная фамилия⟩",
+    "russian": "Янг ⟨распространенная фамилия⟩",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "认识你（我也）很高兴",
     "pinyin": "rènshi nǐ (wǒ yě) hěn gāoxìng",
-    "translation": "приятно с вами познакомиться",
+    "russian": "приятно с вами познакомиться",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "语言",
     "pinyin": "yǔyán",
-    "translation": "язык",
+    "russian": "язык",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "学",
     "pinyin": "xué",
-    "translation": "учить что-то",
+    "russian": "учить что-то",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "院",
     "pinyin": "yuàn",
-    "translation": "заведение; учреждение",
+    "russian": "заведение; учреждение",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "学院",
     "pinyin": "xuéyuàn",
-    "translation": "институт",
+    "russian": "институт",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "的",
     "pinyin": "de",
-    "translation": "⟨частица принадлежности⟩",
+    "russian": "⟨частица принадлежности⟩",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "学生",
     "pinyin": "xuéshēng",
-    "translation": "студент; школьник",
+    "russian": "студент; школьник",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "什么",
     "pinyin": "shénme",
-    "translation": "что; какой",
+    "russian": "что; какой",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "学习",
     "pinyin": "xuéxí",
-    "translation": "учиться где-то",
+    "russian": "учиться где-то",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "汉",
     "pinyin": "hàn",
-    "translation": "ханьский (китайский)",
+    "russian": "ханьский (китайский)",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "汉语",
     "pinyin": "hànyǔ",
-    "translation": "китайский язык",
+    "russian": "китайский язык",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "中文",
     "pinyin": "zhōngwén",
-    "translation": "письменный китайский язык",
+    "russian": "письменный китайский язык",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "英国",
     "pinyin": "yīngguó",
-    "translation": "Англия; Великобритания",
+    "russian": "Англия; Великобритания",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "英语",
     "pinyin": "yīngyǔ",
-    "translation": "английский язык",
+    "russian": "английский язык",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "大",
     "pinyin": "dà",
-    "translation": "большой",
+    "russian": "большой",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "加",
     "pinyin": "jiā",
-    "translation": "добавлять; плюс",
+    "russian": "добавлять; плюс",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "拿",
     "pinyin": "ná",
-    "translation": "брать",
+    "russian": "брать",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "美",
     "pinyin": "měi",
-    "translation": "красивый",
+    "russian": "красивый",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "美国",
     "pinyin": "měiguó",
-    "translation": "Америка; США",
+    "russian": "Америка; США",
+    "radicals": "",
     "lesson": 9
   },
   {
     "chinese": "餐厅",
     "pinyin": "cāntīng",
-    "translation": "столовая (студенческая)",
+    "russian": "столовая (студенческая)",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "厅",
     "pinyin": "tīng",
-    "translation": "зал",
+    "russian": "зал",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "在",
     "pinyin": "zài",
-    "translation": "находиться; пребывать где-то",
+    "russian": "находиться; пребывать где-то",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "哪儿",
     "pinyin": "nǎ'er",
-    "translation": "где; куда",
+    "russian": "где; куда",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "宿舍",
     "pinyin": "sùshè",
-    "translation": "общежитие",
+    "russian": "общежитие",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "女",
     "pinyin": "nǚ",
-    "translation": "женский",
+    "russian": "женский",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "坐",
     "pinyin": "zuò",
-    "translation": "сидеть",
+    "russian": "сидеть",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "谢谢",
     "pinyin": "xièxie",
-    "translation": "спасибо; благодарить",
+    "russian": "спасибо; благодарить",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "对",
     "pinyin": "duì",
-    "translation": "верный; правильный",
+    "russian": "верный; правильный",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "起",
     "pinyin": "qǐ",
-    "translation": "вставать; подниматься",
+    "russian": "вставать; подниматься",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "对不起",
     "pinyin": "duìbuqǐ",
-    "translation": "Извините!",
+    "russian": "Извините!",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "道",
     "pinyin": "dào",
-    "translation": "жизненный путь",
+    "russian": "жизненный путь",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "知道",
     "pinyin": "zhīdào",
-    "translation": "знать",
+    "russian": "знать",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "没",
     "pinyin": "méi",
-    "translation": "нет/не ⟨только в прошедшем времени⟩",
+    "russian": "нет/не ⟨только в прошедшем времени⟩",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "关",
     "pinyin": "guān",
-    "translation": "закрывать; выключать",
+    "russian": "закрывать; выключать",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "系",
     "pinyin": "xì",
-    "translation": "факультет",
+    "russian": "факультет",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "没关系",
     "pinyin": "méiguānxì",
-    "translation": "Ничего страшного!",
+    "russian": "Ничего страшного!",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "关系",
     "pinyin": "guānxì",
-    "translation": "связи (знакомства); связь (тех. соединение)",
+    "russian": "связи (знакомства); связь (тех. соединение)",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "再",
     "pinyin": "zài",
-    "translation": "опять; снова",
+    "russian": "опять; снова",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "见",
     "pinyin": "jiàn",
-    "translation": "видеть",
+    "russian": "видеть",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "再见",
     "pinyin": "zàijiàn",
-    "translation": "До свидания!",
+    "russian": "До свидания!",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "云",
     "pinyin": "yún",
-    "translation": "облако",
+    "russian": "облако",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "王",
     "pinyin": "wáng",
-    "translation": "князь; Ван ⟨распространенная фамилия⟩",
+    "russian": "князь; Ван ⟨распространенная фамилия⟩",
+    "radicals": "",
     "lesson": 10
   },
   {
     "chinese": "小",
     "pinyin": "xiǎo",
-    "translation": "маленький",
+    "russian": "маленький",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "姐姐",
     "pinyin": "jiějiě",
-    "translation": "старшая сестра",
+    "russian": "старшая сестра",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "小姐",
     "pinyin": "xiǎojiě",
-    "translation": "мисс; девушка ⟨неприличное на юге Китая⟩",
+    "russian": "мисс; девушка ⟨неприличное на юге Китая⟩",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "一",
     "pinyin": "yī",
-    "translation": "один",
+    "russian": "один",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "二",
     "pinyin": "èr",
-    "translation": "два",
+    "russian": "два",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "三",
     "pinyin": "sān",
-    "translation": "три",
+    "russian": "три",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "四",
     "pinyin": "sì",
-    "translation": "четыре",
+    "russian": "четыре",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "五",
     "pinyin": "wǔ",
-    "translation": "пять",
+    "russian": "пять",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "六",
     "pinyin": "liù",
-    "translation": "шесть",
+    "russian": "шесть",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "七",
     "pinyin": "qī",
-    "translation": "семь",
+    "russian": "семь",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "八",
     "pinyin": "bā",
-    "translation": "восемь",
+    "russian": "восемь",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "九",
     "pinyin": "jiǔ",
-    "translation": "девять",
+    "russian": "девять",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "十",
     "pinyin": "shí",
-    "translation": "десять",
+    "russian": "десять",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "零",
     "pinyin": "líng",
-    "translation": "ноль",
+    "russian": "ноль",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "十一",
     "pinyin": "shí yī",
-    "translation": "одиннадцать",
+    "russian": "одиннадцать",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "二十",
     "pinyin": "èr shí",
-    "translation": "двадцать",
+    "russian": "двадцать",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "二十一",
     "pinyin": "èr shí yī",
-    "translation": "двадцать один",
+    "russian": "двадцать один",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "层",
     "pinyin": "céng",
-    "translation": "этаж",
+    "russian": "этаж",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "号",
     "pinyin": "hào",
-    "translation": "число",
+    "russian": "число",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "用",
     "pinyin": "yòng",
-    "translation": "использовать",
+    "russian": "использовать",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "不用",
     "pinyin": "bùyòng",
-    "translation": "Спасибо, не нужно! ⟨вежливое по сравнению с bu yào⟩",
+    "russian": "Спасибо, не нужно! ⟨вежливое по сравнению с bu yào⟩",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "这儿",
     "pinyin": "zhè'er",
-    "translation": "здесь; сюда",
+    "russian": "здесь; сюда",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "晚",
     "pinyin": "wǎn",
-    "translation": "поздний; поздно",
+    "russian": "поздний; поздно",
+    "radicals": "",
     "lesson": 11
   },
   {
     "chinese": "了",
     "pinyin": "le",
-    "translation": "⟨глагольная частица прошедшего времени, всегда в конце предложения, но перед вопросительным ma⟩",
+    "russian": "⟨глагольная частица прошедшего времени, всегда в конце предложения, но перед вопросительным ma⟩",
+    "radicals": "",
     "lesson": 11
   }
 ]
