@@ -167,7 +167,7 @@
     }
 
     async function init(){
-      window.words = await fetch('/words.json').then(data => data.json());
+      window.words = await fetch('/data/words.json').then(data => data.json());
 
       renderWords(words);
       document.querySelector('body').addEventListener('click', hidePopups, false);

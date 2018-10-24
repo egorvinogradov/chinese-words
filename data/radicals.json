@@ -1,0 +1,387 @@
+[
+  {
+    "radical": "亻",
+    "name_russian": "человек ⟨вариант слева⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "冖",
+    "name_russian": "крышка",
+    "is_canonical": true
+  },
+  {
+    "radical": "小",
+    "name_russian": "маленький",
+    "is_canonical": true
+  },
+  {
+    "radical": "女",
+    "name_russian": "женщина",
+    "is_canonical": true
+  },
+  {
+    "radical": "子",
+    "name_russian": "ребёнок",
+    "is_canonical": true
+  },
+  {
+    "radical": "口",
+    "name_russian": "рот",
+    "is_canonical": true
+  },
+  {
+    "radical": "马",
+    "name_russian": "лошадь",
+    "is_canonical": true
+  },
+  {
+    "radical": "戈",
+    "name_russian": "алебарда",
+    "is_canonical": true
+  },
+  {
+    "radical": "彳",
+    "name_russian": "шаг левой ногой",
+    "is_canonical": true
+  },
+  {
+    "radical": "艮",
+    "name_russian": "твердый; крепкий",
+    "is_canonical": true
+  },
+  {
+    "radical": "尸",
+    "name_russian": "труп",
+    "is_canonical": true
+  },
+  {
+    "radical": "匕",
+    "name_russian": "черпак",
+    "is_canonical": true
+  },
+  {
+    "radical": "忄",
+    "name_russian": "сердце",
+    "is_canonical": true
+  },
+  {
+    "radical": "匸",
+    "name_russian": "прятать",
+    "is_canonical": true
+  },
+  {
+    "radical": "父",
+    "name_russian": "отец",
+    "is_canonical": true
+  },
+  {
+    "radical": "巴",
+    "name_russian": "удав",
+    "is_canonical": true
+  },
+  {
+    "radical": "门",
+    "name_russian": "дверь",
+    "is_canonical": true
+  },
+  {
+    "radical": "土",
+    "name_russian": "земля",
+    "is_canonical": true
+  },
+  {
+    "radical": "日",
+    "name_russian": "солнце",
+    "is_canonical": true
+  },
+  {
+    "radical": "阝",
+    "name_russian": "город; холм",
+    "is_canonical": true
+  },
+  {
+    "radical": "田",
+    "name_russian": "поле",
+    "is_canonical": true
+  },
+  {
+    "radical": "力",
+    "name_russian": "сила",
+    "is_canonical": true
+  },
+  {
+    "radical": "月",
+    "name_russian": "месяц; луна",
+    "is_canonical": true
+  },
+  {
+    "radical": "十",
+    "name_russian": "десять",
+    "is_canonical": true
+  },
+  {
+    "radical": "又",
+    "name_russian": "ладонь правой руки",
+    "is_canonical": true
+  },
+  {
+    "radical": "心",
+    "name_russian": "сердце ⟨основной вариант⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "覀",
+    "name_russian": "запад ⟨верхний вариант⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "非",
+    "name_russian": "ошибка",
+    "is_canonical": true
+  },
+  {
+    "radical": "弓",
+    "name_russian": "лук (для стрельбы)",
+    "is_canonical": true
+  },
+  {
+    "radical": "勹",
+    "name_russian": "оборачивать",
+    "is_canonical": true
+  },
+  {
+    "radical": "人",
+    "name_russian": "человек ⟨основной вариант⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "丁",
+    "name_russian": "гвоздь",
+    "is_canonical": false
+  },
+  {
+    "radical": "玉",
+    "name_russian": "нефрит; яшма",
+    "is_canonical": true
+  },
+  {
+    "radical": "囗",
+    "name_russian": "ограда",
+    "is_canonical": true
+  },
+  {
+    "radical": "讠",
+    "name_russian": "речь ⟨вариант слева⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "隹",
+    "name_russian": "короткохвостая птица",
+    "is_canonical": true
+  },
+  {
+    "radical": "刂",
+    "name_russian": "нож ⟨вариант слева⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "巾",
+    "name_russian": "платок",
+    "is_canonical": true
+  },
+  {
+    "radical": "文",
+    "name_russian": "письмена",
+    "is_canonical": true
+  },
+  {
+    "radical": "辶",
+    "name_russian": "идти быстро",
+    "is_canonical": true
+  },
+  {
+    "radical": "夕",
+    "name_russian": "вечер",
+    "is_canonical": true
+  },
+  {
+    "radical": "卜",
+    "name_russian": "гадать",
+    "is_canonical": true
+  },
+  {
+    "radical": "五",
+    "name_russian": "пять",
+    "is_canonical": false
+  },
+  {
+    "radical": "矢",
+    "name_russian": "стрела",
+    "is_canonical": true
+  },
+  {
+    "radical": "氵",
+    "name_russian": "вода",
+    "is_canonical": true
+  },
+  {
+    "radical": "皮",
+    "name_russian": "кожа",
+    "is_canonical": true
+  },
+  {
+    "radical": "东",
+    "name_russian": "восток",
+    "is_canonical": false
+  },
+  {
+    "radical": "亠",
+    "name_russian": "накрывать",
+    "is_canonical": true
+  },
+  {
+    "radical": "井",
+    "name_russian": "колодец",
+    "is_canonical": false
+  },
+  {
+    "radical": "青",
+    "name_russian": "jing; qing ⟨фонетик⟩",
+    "is_canonical": true
+  },
+  {
+    "radical": "一",
+    "name_russian": "один",
+    "is_canonical": true
+  },
+  {
+    "radical": "贝",
+    "name_russian": "ракушка",
+    "is_canonical": true
+  },
+  {
+    "radical": "乃",
+    "name_russian": "каракатица",
+    "is_canonical": false
+  },
+  {
+    "radical": "木",
+    "name_russian": "дерево",
+    "is_canonical": true
+  },
+  {
+    "radical": "爫",
+    "name_russian": "когти",
+    "is_canonical": false
+  },
+  {
+    "radical": "宀",
+    "name_russian": "крыша",
+    "is_canonical": true
+  },
+  {
+    "radical": "白",
+    "name_russian": "белый",
+    "is_canonical": true
+  },
+  {
+    "radical": "艹",
+    "name_russian": "трава",
+    "is_canonical": true
+  },
+  {
+    "radical": "央",
+    "name_russian": "герой",
+    "is_canonical": false
+  },
+  {
+    "radical": "合",
+    "name_russian": "соединять",
+    "is_canonical": false
+  },
+  {
+    "radical": "手",
+    "name_russian": "рука",
+    "is_canonical": true
+  },
+  {
+    "radical": "⺷",
+    "name_russian": "баран",
+    "is_canonical": true
+  },
+  {
+    "radical": "大",
+    "name_russian": "большой",
+    "is_canonical": true
+  },
+  {
+    "radical": "元",
+    "name_russian": "юань",
+    "is_canonical": false
+  },
+  {
+    "radical": "百",
+    "name_russian": "сто; сотня",
+    "is_canonical": false
+  },
+  {
+    "radical": "舌",
+    "name_russian": "язык (орган)",
+    "is_canonical": true
+  },
+  {
+    "radical": "身",
+    "name_russian": "тело",
+    "is_canonical": true
+  },
+  {
+    "radical": "寸",
+    "name_russian": "вершок",
+    "is_canonical": true
+  },
+  {
+    "radical": "首",
+    "name_russian": "голова",
+    "is_canonical": true
+  },
+  {
+    "radical": "几",
+    "name_russian": "столик",
+    "is_canonical": true
+  },
+  {
+    "radical": "天",
+    "name_russian": "небо",
+    "is_canonical": false
+  },
+  {
+    "radical": "糸",
+    "name_russian": "шелк",
+    "is_canonical": true
+  },
+  {
+    "radical": "见",
+    "name_russian": "видеть",
+    "is_canonical": true
+  },
+  {
+    "radical": "且",
+    "name_russian": "посуда",
+    "is_canonical": false
+  },
+  {
+    "radical": "免",
+    "name_russian": "кролик",
+    "is_canonical": false
+  },
+  {
+    "radical": "雨",
+    "name_russian": "дождь",
+    "is_canonical": true
+  },
+  {
+    "radical": "令",
+    "name_russian": "leng; ling ⟨фонетик⟩",
+    "is_canonical": false
+  }
+]
