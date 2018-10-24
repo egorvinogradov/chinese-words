@@ -8,13 +8,16 @@
 <style>
 
   body, input {
+    --search-height: 46px;
+    --chinese-font-family: 'Kaiti SC', 'Times New Roman', sans-serif;
+
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   }
   .words {
     max-width: 700px;
     width: 100%;
     border-collapse: collapse;
-    margin: 46px auto 100px auto;
+    margin: var(--search-height) auto 100px auto;
   }
   .words td {
     padding: 4px;
@@ -27,7 +30,7 @@
   }
   .chinese {
     font-size: 24px;
-    font-family: 'Kaiti SC', 'Times New Roman', sans-serif;
+    font-family: var(--chinese-font-family);
   }
   .chinese.selected:after {
     content: attr(data-text);
@@ -49,33 +52,112 @@
     text-align: center;
     white-space: nowrap;
   }
-  .search-input {
+  .search-panel {
+    display: inline-block;
+    position: relative;
     width: 100%;
     max-width: 700px;
+    height: var(--search-height);
+  }
+  .search-input {
+    width: 100%;
     box-shadow: 0 8px 5px -5px rgba(0,0,0,0.07);
     padding: 10px 15px;
     box-sizing: border-box;
-    height: 46px;
+    height: var(--search-height);
     border: 0;
     border-bottom: 1px solid rgba(0,0,0,.1);
     font-size: 16px;
   }
   .search-clear {
     display: inline-block;
-    height: 46px;
-    width: 46px;
-    margin-left: -50px;
+    height: var(--search-height);
+    width: var(--search-height);
+    position: absolute;
+    right: 0;
+    top: 0;
     font-size: 30px;
     line-height: 40px;
     cursor: pointer;
-    position: relative;
     z-index: 1;
     vertical-align: top;
   }
+  .search-tag-list {
+    position: absolute;
+    right: var(--search-height);
+    white-space: nowrap;
+    top: 8px;
+  }
+  .search-tag {
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.25);
+    padding: 0 0 0 3px;
+    font-family: var(--chinese-font-family);
+    font-size: 23px;
+    position: relative;
+    overflow: hidden;
+    line-height: 27px;
+    border-radius: 5px;
+  }
+  .search-tag-close {
+    font: normal 21px/27px Arial;
+    vertical-align: top;
+    display: inline-block;
+    background: rgba(0,0,0,.03);
+    padding: 0 7px;
+    color: rgba(0,0,0,.6);
+    margin-left: -2px;
+    border-left: 1px solid rgba(0,0,0,.25);
+    cursor: pointer;
+  }
+  .search-radicals {
+    background: #fffeef;
+    box-shadow: 0 8px 5px -5px rgba(0,0,0,0.07);
+    position: absolute;
+    top: var(--search-height);
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 224px;
+    overflow-y: auto;
+  }
+  .search-radicals-li {
+    margin: 0;
+    vertical-align: top;
+  }
+  .search-radicals-label {
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    padding: 3px 15px;
+  }
+  .search-radicals-label:hover {
+    background: #FAF8E3;
+  }
+  .search-radicals-radical {
+    font-family: var(--chinese-font-family);
+    font-size: 20px;
+  }
+  .search-radicals-radical {
+    display: inline-block;
+    padding-left: 7px;
+    width: 30px;
+  }
+  .search-radicals-non-canonical {
+    color: #efe934;
+    transform: scale(1.5) translateY(-1px);
+    display: inline-block;
+  }
 </style>
   <div class="search">
-    <input class="search-input" type="text" placeholder="Найти..." spellcheck="false">
-    <span class="search-clear">&times;</span>
+    <div class="search-panel">
+      <input class="search-input" type="text" placeholder="Найти..." spellcheck="false">
+      <span class="search-tag-list"></span>
+      <span class="search-clear">&times;</span>
+      <ul class="search-radicals" hidden></ul>
+    </div>
   </div>
   <table class="words">
     <colgroup>
@@ -84,8 +166,15 @@
       <col width="45%">
     </colgroup>
     <tbody></tbody>
+  </table>
   </div>
   <script>
+
+    window.words = [];
+    window.radicals = [];
+    window.selected_radicals = {};
+    window.is_searching = false;
+    window.latest_search_keyword = null;
 
     function iterateDOM(selector, callback){
       return Array.prototype.slice.call(document.querySelectorAll(selector)).map(callback);
@@ -111,11 +200,77 @@
       })
     }
 
+    function renderRadicals(radicals){
+        var listHTML = radicals.map(row => {
+            return `<li class="search-radicals-li" data-radical="${row.radical}">
+          <label class="search-radicals-label">
+            <input type="checkbox" ${ window.selected_radicals[row.radical] ? 'checked' : ''}/>
+            <span class="search-radicals-radical">${row.radical}</span>
+            <span class="search-radicals-name">${row.name_russian}</span>
+            ${!row.is_canonical ? `<span class="search-radicals-non-canonical">•</span>` : ''}
+          </label>
+        </li>`;
+        }).join('\n');
+
+        var container = document.querySelector('.search-radicals');
+        container.innerHTML = listHTML;
+        container.hidden = !radicals.length;
+
+        iterateDOM('.search-radicals input[type=checkbox]', (item) => {
+          item.addEventListener('click', filterByRadicals, false);
+        });
+    }
+
+    function filterByRadicals() {
+      iterateDOM('.search-radicals input[type=checkbox]:checked', (item) => {
+        var radical = item.parentNode.querySelector('.search-radicals-radical').innerText;
+        var name = item.parentNode.querySelector('.search-radicals-name').innerText;
+        selected_radicals[radical] = name;
+      });
+
+      renderWords( getRadicalMatches(window.selected_radicals, window.words) );
+      renderRadicalTags(window.selected_radicals);
+
+      console.log('__filter by radicals', window.selected_radicals);
+    }
+
+
+    function renderRadicalTags(radicals) {
+      var tagsHTML = Object.keys(radicals).map(radical => {
+        return `<span class="search-tag" title="${radicals[radical]}" data-radical="${radical}">
+          ${radical}
+          <i class="search-tag-close">×</i>
+        </span>`;
+      }).join('\n');
+
+      document.querySelector('.search-tag-list').innerHTML = tagsHTML;
+
+      iterateDOM('.search-tag-close', (tag) => {
+        tag.addEventListener('click', (e) => {
+          onRadicalTagRemove(e.target.parentNode.dataset.radical);
+        }, false);
+      });
+    }
+
+
+    function onRadicalTagRemove(radical) {
+      delete window.selected_radicals[radical];
+
+      var radicalListItem = document.querySelector(`.search-radicals-li[data-radical="${radical}"]`);
+      if (radicalListItem) {
+        radicalListItem.querySelector('input[type=checkbox]').checked = false;
+      }
+
+      console.log('__on radical tag remove: RE-RENDER', radical);
+
+      renderRadicalTags(window.selected_radicals);
+      renderWords( getRadicalMatches(window.selected_radicals, window.words) );
+    }
+
+
     function hidePopups(){
       iterateDOM('.chinese.selected', (item) => item.classList.remove('selected'));
     }
-
-    var isSearching = false;
 
     function normalizeStr(str){
       return str.toLowerCase()
@@ -134,15 +289,23 @@
       });
     }
 
+    function prepareRadicalDict(){
+      window.radicals = window.radicals.map(item => {
+        item.search = normalizeStr(item.radical + ' ' + item.name_russian);
+        return item;
+      });
+    }
+
     function initSearch(){
 
       prepareSearchDict();
+      prepareRadicalDict();
 
       document.querySelector('.search-input').addEventListener('keyup', (e) => {
-        if (!isSearching) {
-          isSearching = true;
+        if (!window.is_searching) {
+          window.is_searching = true;
           setTimeout(() => {
-            isSearching = false;
+            window.is_searching = false;
             performSearch(e.target.value);
           }, 500);
           performSearch(e.target.value);
@@ -152,11 +315,22 @@
 
     function performSearch(text){
       var keyword = normalizeStr(text.trim());
-      if (keyword) {
-        renderWords( getSearchMatches(keyword, window.words) );
-      }
-      else {
-        renderWords(window.words);
+      if (keyword !== window.latest_search_keyword) {
+        console.log('__search', text);
+        window.latest_search_keyword = keyword;
+        if (keyword) {
+          if (/^\//i.test(keyword)) {
+            renderRadicals( getSearchMatches(keyword.replace(/^\//, ''), window.radicals) );
+          }
+          else {
+            renderRadicals([]);
+            renderWords( getSearchMatches(keyword, window.words) );
+          }
+        }
+        else {
+          renderRadicals([]);
+          renderWords( getRadicalMatches(window.selected_radicals, window.words) );
+        }
       }
     }
 
@@ -166,8 +340,20 @@
       });
     }
 
+    function getRadicalMatches(selectedRadicals, allWords) {
+      if (Object.keys(selectedRadicals).length) {
+        var from  = Math.ceil( Math.random() * 10 );
+        var to  = Math.ceil( Math.random() * 10 ) + 10;
+        return allWords.slice(from, to);
+      }
+      else {
+        return allWords;
+      }
+    }
+
     async function init(){
       window.words = await fetch('/data/words.json').then(data => data.json());
+      window.radicals = await fetch('/data/radicals.json').then(data => data.json());
 
       renderWords(words);
       document.querySelector('body').addEventListener('click', hidePopups, false);
@@ -182,11 +368,13 @@
         var input = document.querySelector('.search-input');
         input.value = '';
         input.focus();
-        renderWords(window.words);
+        renderRadicals([]);
+        renderWords( getRadicalMatches(window.selected_radicals, window.words) );
+        window.latest_search_keyword = null;
       }, false);
 
       window.addEventListener('keydown', (e) => {
-        if (e.keyCode === 70 && (e.ctrlKey || e.metaKey)) {
+        if (e.which === 70 && (e.ctrlKey || e.metaKey)) {
           document.querySelector('.search-input').focus();
           e.preventDefault();
           return false;
