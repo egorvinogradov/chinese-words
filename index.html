@@ -9,7 +9,7 @@
 
 <div class="search">
   <div class="search__panel">
-    <input class="search__input" type="text" placeholder="Найти..." spellcheck="false">
+    <input class="search__input" type="text" placeholder='Ввести "/НАЗВАНИЕ_КЛЮЧА" для поиска по ключам' spellcheck="false">
     <span class="search__clear">&times;</span>
 
     <span class="tags" t-each="tags" t-show="tags|object" hidden>
@@ -36,12 +36,16 @@
 
 <table class="words" t-show="displayedWords|object" hidden>
   <colgroup>
+    <col width="1%">
     <col width="25%">
     <col width="30%">
     <col width="45%">
   </colgroup>
   <tbody t-each="displayedWords">
     <tr>
+      <td>
+        <span class="words__play" data-text="${t('chinese')}"></span>
+      </td>
       <td>
         <span class="words__han" data-text="${t('chinese')}">${t('chinese')}</span>
       </td>
@@ -51,6 +55,7 @@
   </tbody>
 </table>
 
+<script src="http://code.responsivevoice.org/responsivevoice.js"></script>
 <script src="store.js"></script>
 <script src="app.js"></script>
 </body>

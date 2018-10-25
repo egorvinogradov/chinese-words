@@ -147,6 +147,18 @@ function hidePopups(){
 }
 
 
+function onPlayClick(e) {
+  var button = e.target;
+  button.classList.add('m-playing');
+  responsiveVoice.speak(e.target.dataset.text, 'Chinese Male', {
+    rate: 0.75,
+    onend: () => {
+      button.classList.remove('m-playing');
+    }
+  });
+}
+
+
 function initEventBindings(){
   STORE.subscribe('searchParams', (searchParams) => {
     var selectedRadicals = STORE.var('selectedRadicals');
@@ -203,6 +215,7 @@ function initEventBindings(){
   $$.delegate('.radicals__checkbox', 'change', onRadicalCheckboxChange);
   $$.delegate('.tags__remove', 'click', onRadicalTagRemove);
   $$.delegate('.words__han', 'click', e => e.target.classList.add('m-selected'));
+  $$.delegate('.words__play', 'click', onPlayClick);
 }
 
 

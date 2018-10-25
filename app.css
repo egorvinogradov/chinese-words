@@ -28,6 +28,8 @@ body, input {
 .words__han {
   font-size: 24px;
   font-family: var(--font-chinese);
+  display: inline-block;
+  min-width: 75px;
 }
 
 .words__han.m-selected:after {
@@ -40,6 +42,39 @@ body, input {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.words__play {
+  font-family: var(--font-regular);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,.3);
+  background: rgba(0,0,0,.03);
+  cursor: pointer;
+  text-indent: 1px;
+  vertical-align: top;
+  margin-top: 4px;
+  font-size: 13px;
+  color: rgba(0,0,0,.5);
+}
+
+.words__play:after {
+  content: '▶';
+}
+
+.words__play.m-playing:after {
+  content: '=';
+  transform: rotate(90deg) scale(1.2, 1.8) translate(0,-1px);
+  font-weight: bold;
+  display: block;
+}
+
+.words__play:hover {
+  background: rgba(0,0,0,.07);
 }
 
 .search {
