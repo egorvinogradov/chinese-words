@@ -1,3 +1,8 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 body, input {
   --height-search: 46px;
   --font-chinese: 'Kaiti SC', 'Times New Roman', sans-serif;
@@ -14,7 +19,7 @@ body, input {
 }
 
 .words td {
-  padding: 4px;
+  padding: 4px 0;
 }
 
 .words tr:nth-child(odd) td {
@@ -26,10 +31,11 @@ body, input {
 }
 
 .words__han {
-  font-size: 24px;
   font-family: var(--font-chinese);
   display: inline-block;
-  min-width: 75px;
+  min-width: 90px;
+  font-size: 22px;
+  padding-left: 10px;
 }
 
 .words__han.m-selected:after {
@@ -42,6 +48,7 @@ body, input {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 .words__play {
@@ -60,6 +67,7 @@ body, input {
   margin-top: 4px;
   font-size: 13px;
   color: rgba(0,0,0,.5);
+  transform: translate(5px, 0);
 }
 
 .words__play:after {
@@ -85,6 +93,7 @@ body, input {
   right: 0;
   text-align: center;
   white-space: nowrap;
+  z-index: 2;
 }
 
 .search__panel {
