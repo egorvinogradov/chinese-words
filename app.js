@@ -150,7 +150,7 @@ function hidePopups(){
 function onPlayClick(e) {
   var button = e.target;
   button.classList.add('m-playing');
-  responsiveVoice.speak(e.target.dataset.text, 'Chinese Male', {
+  responsiveVoice.speak(button.dataset.text, 'Chinese Male', {
     rate: 0.75,
     onend: () => {
       button.classList.remove('m-playing');

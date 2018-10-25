@@ -108,16 +108,18 @@ body, input {
 
 .search__clear {
   display: inline-block;
-  height: var(--height-search);
-  width: var(--height-search);
+  height: calc(var(--height-search) - 8px);
+  width: calc(var(--height-search) - 4px);
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 4px;
+  top: 4px;
   font-size: 30px;
-  line-height: 40px;
+  line-height: 36px;
   cursor: pointer;
   z-index: 1;
   vertical-align: top;
+  background: #fff;
+  text-indent: 3px;
 }
 
 .tags {
@@ -125,6 +127,8 @@ body, input {
   right: var(--height-search);
   white-space: nowrap;
   top: 8px;
+  background: #fff;
+  box-shadow: 0 0 0 3px #fff;
 }
 
 .tags__item {
