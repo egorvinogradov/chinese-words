@@ -3,389 +3,55 @@
 <head>
   <title>Chinese MRG</title>
   <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<style>
 
-  body, input {
-    --search-height: 46px;
-    --chinese-font-family: 'Kaiti SC', 'Times New Roman', sans-serif;
+<div class="search">
+  <div class="search__panel">
+    <input class="search__input" type="text" placeholder="Найти..." spellcheck="false">
+    <span class="search__clear">&times;</span>
 
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-  }
-  .words {
-    max-width: 700px;
-    width: 100%;
-    border-collapse: collapse;
-    margin: var(--search-height) auto 100px auto;
-  }
-  .words td {
-    padding: 4px;
-  }
-  .words tr:nth-child(odd) td {
-    background: #f6f6f6;
-  }
-  .words tr:hover td {
-    background: #eee;
-  }
-  .chinese {
-    font-size: 24px;
-    font-family: var(--chinese-font-family);
-  }
-  .chinese.selected:after {
-    content: attr(data-text);
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 1px 13px rgba(0,0,0,0.1);
-    text-align: center;
-    font-size: 70px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  .search {
-    height: 40px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    white-space: nowrap;
-  }
-  .search-panel {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    max-width: 700px;
-    height: var(--search-height);
-  }
-  .search-input {
-    width: 100%;
-    box-shadow: 0 8px 5px -5px rgba(0,0,0,0.07);
-    padding: 10px 15px;
-    box-sizing: border-box;
-    height: var(--search-height);
-    border: 0;
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    font-size: 16px;
-  }
-  .search-clear {
-    display: inline-block;
-    height: var(--search-height);
-    width: var(--search-height);
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 30px;
-    line-height: 40px;
-    cursor: pointer;
-    z-index: 1;
-    vertical-align: top;
-  }
-  .search-tag-list {
-    position: absolute;
-    right: var(--search-height);
-    white-space: nowrap;
-    top: 8px;
-  }
-  .search-tag {
-    display: inline-block;
-    border: 1px solid rgba(0,0,0,.25);
-    padding: 0 0 0 3px;
-    font-family: var(--chinese-font-family);
-    font-size: 23px;
-    position: relative;
-    overflow: hidden;
-    line-height: 27px;
-    border-radius: 5px;
-  }
-  .search-tag-close {
-    font: normal 21px/27px Arial;
-    vertical-align: top;
-    display: inline-block;
-    background: rgba(0,0,0,.03);
-    padding: 0 7px;
-    color: rgba(0,0,0,.6);
-    margin-left: -2px;
-    border-left: 1px solid rgba(0,0,0,.25);
-    cursor: pointer;
-  }
-  .search-radicals {
-    background: #fffeef;
-    box-shadow: 0 8px 5px -5px rgba(0,0,0,0.07);
-    position: absolute;
-    top: var(--search-height);
-    margin: 0;
-    padding: 10px 0;
-    list-style: none;
-    width: 100%;
-    box-sizing: border-box;
-    max-height: 224px;
-    overflow-y: auto;
-  }
-  .search-radicals-li {
-    margin: 0;
-    vertical-align: top;
-  }
-  .search-radicals-label {
-    display: block;
-    text-align: left;
-    cursor: pointer;
-    padding: 3px 15px;
-  }
-  .search-radicals-label:hover {
-    background: #FAF8E3;
-  }
-  .search-radicals-radical {
-    font-family: var(--chinese-font-family);
-    font-size: 20px;
-  }
-  .search-radicals-radical {
-    display: inline-block;
-    padding-left: 7px;
-    width: 30px;
-  }
-  .search-radicals-non-canonical {
-    color: #efe934;
-    transform: scale(1.5) translateY(-1px);
-    display: inline-block;
-  }
-</style>
-  <div class="search">
-    <div class="search-panel">
-      <input class="search-input" type="text" placeholder="Найти..." spellcheck="false">
-      <span class="search-tag-list"></span>
-      <span class="search-clear">&times;</span>
-      <ul class="search-radicals" hidden></ul>
-    </div>
+    <span class="tags" t-each="tags" t-show="tags|object" hidden>
+      <span class="tags__item" title="${t('name')}" data-radical="${t('radical')}">
+        ${t('radical')}
+        <i class="tags__remove">×</i>
+      </span>
+    </span>
+
+    <ul class="radicals" t-each="displayedRadicals" t-show="displayedRadicals|object" hidden>
+      <li class="radicals__li" data-radical="${t('radical')}" data-name="${t('name_russian')}">
+        <label class="radicals__label">
+          <input class="radicals__checkbox" type="checkbox"/>
+          <span class="radicals__radical">${t('radical')}</span>
+          <span class="radicals__name">${t('name_russian')}</span>
+          ${!t('is_canonical') ? '<span class="radicals__non-canonical">•</span>' : ''}
+        </label>
+      </li>
+    </ul>
+
   </div>
-  <table class="words">
-    <colgroup>
-      <col width="25%">
-      <col width="30%">
-      <col width="45%">
-    </colgroup>
-    <tbody></tbody>
-  </table>
-  </div>
-  <script>
-
-    window.words = [];
-    window.radicals = [];
-    window.selected_radicals = {};
-    window.is_searching = false;
-    window.latest_search_keyword = null;
-
-    function iterateDOM(selector, callback){
-      return Array.prototype.slice.call(document.querySelectorAll(selector)).map(callback);
-    }
-
-    function renderWords(words){
-      var tableHTML = words.map(row => {
-        return `<tr>
-          <td><span class="chinese" data-text="${row.chinese}">${row.chinese}</span></td>
-          <td>${row.pinyin}</td>
-          <td>${row.russian}</td>
-        </tr>`;
-      }).join('\n');
-
-      document.querySelector('.words tbody').innerHTML = tableHTML;
-
-      iterateDOM('.chinese', (td) => {
-        td.addEventListener('click', (e) => {
-          setTimeout(() => {
-            e.target.classList.add('selected');
-          }, 100);
-        }, false);
-      })
-    }
-
-    function renderRadicals(radicals){
-        var listHTML = radicals.map(row => {
-            return `<li class="search-radicals-li" data-radical="${row.radical}">
-          <label class="search-radicals-label">
-            <input type="checkbox" ${ window.selected_radicals[row.radical] ? 'checked' : ''}/>
-            <span class="search-radicals-radical">${row.radical}</span>
-            <span class="search-radicals-name">${row.name_russian}</span>
-            ${!row.is_canonical ? `<span class="search-radicals-non-canonical">•</span>` : ''}
-          </label>
-        </li>`;
-        }).join('\n');
-
-        var container = document.querySelector('.search-radicals');
-        container.innerHTML = listHTML;
-        container.hidden = !radicals.length;
-
-        iterateDOM('.search-radicals input[type=checkbox]', (item) => {
-          item.addEventListener('click', filterByRadicals, false);
-        });
-    }
-
-    function filterByRadicals() {
-      iterateDOM('.search-radicals input[type=checkbox]:checked', (item) => {
-        var radical = item.parentNode.querySelector('.search-radicals-radical').innerText;
-        var name = item.parentNode.querySelector('.search-radicals-name').innerText;
-        selected_radicals[radical] = name;
-      });
-
-      renderWords( getRadicalMatches(window.selected_radicals, window.words) );
-      renderRadicalTags(window.selected_radicals);
-
-      console.log('__filter by radicals', window.selected_radicals);
-    }
+</div>
 
 
-    function renderRadicalTags(radicals) {
-      var tagsHTML = Object.keys(radicals).map(radical => {
-        return `<span class="search-tag" title="${radicals[radical]}" data-radical="${radical}">
-          ${radical}
-          <i class="search-tag-close">×</i>
-        </span>`;
-      }).join('\n');
+<table class="words" t-show="displayedWords|object" hidden>
+  <colgroup>
+    <col width="25%">
+    <col width="30%">
+    <col width="45%">
+  </colgroup>
+  <tbody t-each="displayedWords">
+    <tr>
+      <td>
+        <span class="words__han" data-text="${t('chinese')}">${t('chinese')}</span>
+      </td>
+      <td>${t('pinyin')}</td>
+      <td>${t('russian')}</td>
+    </tr>
+  </tbody>
+</table>
 
-      document.querySelector('.search-tag-list').innerHTML = tagsHTML;
-
-      iterateDOM('.search-tag-close', (tag) => {
-        tag.addEventListener('click', (e) => {
-          onRadicalTagRemove(e.target.parentNode.dataset.radical);
-        }, false);
-      });
-    }
-
-
-    function onRadicalTagRemove(radical) {
-      delete window.selected_radicals[radical];
-
-      var radicalListItem = document.querySelector(`.search-radicals-li[data-radical="${radical}"]`);
-      if (radicalListItem) {
-        radicalListItem.querySelector('input[type=checkbox]').checked = false;
-      }
-
-      console.log('__on radical tag remove: RE-RENDER', radical);
-
-      renderRadicalTags(window.selected_radicals);
-      renderWords( getRadicalMatches(window.selected_radicals, window.words) );
-    }
-
-
-    function hidePopups(){
-      iterateDOM('.chinese.selected', (item) => item.classList.remove('selected'));
-    }
-
-    function normalizeStr(str){
-      return str.toLowerCase()
-        .replace(/[\s+⟨⟩\-_,;\?\!\.]+/g, '')
-        .replace(/[īíǐì]/g, 'i')
-        .replace(/[āáǎà]/g, 'a')
-        .replace(/[ōóǒò]/g, 'o')
-        .replace(/[ēéěè]/g, 'e')
-        .replace(/[ūúǔùüǚǖǘǚǜ]/g, 'u');
-    }
-
-    function prepareSearchDict(){
-      window.words = window.words.map(item => {
-        item.search = normalizeStr(item.chinese + ' ' + item.pinyin + ' ' + item.russian);
-        return item;
-      });
-    }
-
-    function prepareRadicalDict(){
-      window.radicals = window.radicals.map(item => {
-        item.search = normalizeStr(item.radical + ' ' + item.name_russian);
-        return item;
-      });
-    }
-
-    function initSearch(){
-
-      prepareSearchDict();
-      prepareRadicalDict();
-
-      document.querySelector('.search-input').addEventListener('keyup', (e) => {
-        if (!window.is_searching) {
-          window.is_searching = true;
-          setTimeout(() => {
-            window.is_searching = false;
-            performSearch(e.target.value);
-          }, 500);
-          performSearch(e.target.value);
-        }
-      }, false);
-    }
-
-    function performSearch(text){
-      var keyword = normalizeStr(text.trim());
-      if (keyword !== window.latest_search_keyword) {
-        console.log('__search', text);
-        window.latest_search_keyword = keyword;
-        if (keyword) {
-          if (/^\//i.test(keyword)) {
-            renderRadicals( getSearchMatches(keyword.replace(/^\//, ''), window.radicals) );
-          }
-          else {
-            renderRadicals([]);
-            renderWords( getSearchMatches(keyword, window.words) );
-          }
-        }
-        else {
-          renderRadicals([]);
-          renderWords( getRadicalMatches(window.selected_radicals, window.words) );
-        }
-      }
-    }
-
-    function getSearchMatches(keyword, allWords) {
-      return allWords.filter(item => {
-        return item.search.indexOf(keyword) > -1;
-      });
-    }
-
-    function getRadicalMatches(selectedRadicals, allWords) {
-      if (Object.keys(selectedRadicals).length) {
-        var from  = Math.ceil( Math.random() * 10 );
-        var to  = Math.ceil( Math.random() * 10 ) + 10;
-        return allWords.slice(from, to);
-      }
-      else {
-        return allWords;
-      }
-    }
-
-    async function init(){
-      window.words = await fetch('/data/words.json').then(data => data.json());
-      window.radicals = await fetch('/data/radicals.json').then(data => data.json());
-
-      renderWords(words);
-      document.querySelector('body').addEventListener('click', hidePopups, false);
-      document.querySelector('body').addEventListener('touchstart', hidePopups, false);
-      document.addEventListener('keyup', (e) => {
-        if (e.which === 27) {
-          hidePopups();
-        }
-      }, false);
-
-      document.querySelector('.search-clear').addEventListener('click', () => {
-        var input = document.querySelector('.search-input');
-        input.value = '';
-        input.focus();
-        renderRadicals([]);
-        renderWords( getRadicalMatches(window.selected_radicals, window.words) );
-        window.latest_search_keyword = null;
-      }, false);
-
-      window.addEventListener('keydown', (e) => {
-        if (e.which === 70 && (e.ctrlKey || e.metaKey)) {
-          document.querySelector('.search-input').focus();
-          e.preventDefault();
-          return false;
-        }
-      });
-
-      initSearch();
-    }
-
-    init();
-
-  </script>
+<script src="store.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
