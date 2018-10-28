@@ -298,7 +298,6 @@ function initEventBindings(){
   $$$('.info__icon').addEventListener('click', onInfoIconClick);
   $$('.info__tag').map(item => item.addEventListener('click', onInfoTagClick));
 
-
   $$.delegate('.radicals__li', 'mouseover', onRadicalItemHover);
   $$.delegate('.radicals__li', 'mouseout', onRadicalItemHover);
 
@@ -306,6 +305,10 @@ function initEventBindings(){
   $$.delegate('.tags__remove', 'click', onRadicalTagRemove);
   $$.delegate('.words__han', 'click', e => e.target.classList.add('m-selected'));
   $$.delegate('.words__play', 'click', onPlayClick);
+
+  $$.delegate('.tags__remove', 'touchstart', onRadicalTagRemove);
+  $$.delegate('.words__han', 'touchstart', e => e.target.classList.add('m-selected'));
+  $$.delegate('.words__play', 'touchstart', onPlayClick);
 }
 
 

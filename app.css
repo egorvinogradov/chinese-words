@@ -81,7 +81,7 @@ body, input {
   font-family: var(--font-regular);
   text-indent: 2px;
   vertical-align: top;
-  margin-top: 4px;
+  margin-top: 1px;
   transform: translate(5px, 0);
 }
 
@@ -91,7 +91,7 @@ body, input {
 
 .words__play.m-playing:after {
   content: '=';
-  transform: rotate(90deg) scale(1.2, 1.8) translate(0,-1px);
+  transform: rotate(90deg) scale(1.2, 1.8) translate(-0.6px,-0.9px);
   font-weight: bold;
   display: block;
 }
