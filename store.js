@@ -26,9 +26,13 @@ $$.delegate = function(selector, eventType, callback){
   $$.events[selector][eventType].push(callback);
 
   window.addEventListener(eventType, e => {
-    var matchingElements = $$(selector);
-    if (matchingElements.indexOf(e.target) > -1) {
-      $$.events[selector][eventType].map(callback => callback(e));
+    var bubbleElements = e.composedPath && e.composedPath() || [];
+    for (var i = 0; i < bubbleElements.length; i++) {
+      if (bubbleElements[i].matches && bubbleElements[i].matches(selector)) {
+        e.delegateTarget = bubbleElements[i];
+        $$.events[selector][eventType].map(callback => callback(e));
+        break;
+      }
     }
   });
 };

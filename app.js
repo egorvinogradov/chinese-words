@@ -100,6 +100,7 @@ function onRadicalCheckboxChange(e) {
     delete selectedRadicals[radical];
   }
   STORE.var('selectedRadicals', selectedRadicals);
+  $$$('.search__input').focus();
 }
 
 
@@ -159,6 +160,41 @@ function onPlayClick(e) {
 }
 
 
+function onSearchInputKeyup(e) {
+  if (!STORE.var('displayedRadicals').length) {
+    return;
+  }
+  var isMoveUp = e.which === 38;
+  var isMoveDown = e.which === 40;
+  var isEnter = e.which === 13;
+  var currentSelection = $$$('.radicals__li.m-selected');
+
+  if (isMoveUp || isMoveDown) {
+    var nextSelection;
+    if (currentSelection) {
+      nextSelection = isMoveUp ? currentSelection.previousElementSibling : currentSelection.nextElementSibling;
+    }
+    if (!nextSelection) {
+      nextSelection = isMoveUp ? $$$('.radicals__li:last-child') : $$$('.radicals__li:first-child');
+    }
+    currentSelection && currentSelection.classList.remove('m-selected');
+    nextSelection.classList.add('m-selected');
+  }
+
+  if (isEnter) {
+    if (currentSelection) {
+      $$$('.radicals__checkbox', currentSelection).click();
+    }
+  }
+}
+
+
+function onRadicalItemHover(e) {
+  $$('.radicals__li').map(item => item.classList.remove('m-selected'));
+  e.delegateTarget.classList[e.type === 'mouseover' ? 'add' : 'remove']('m-selected');
+}
+
+
 function initEventBindings(){
   STORE.subscribe('searchParams', (searchParams) => {
     var selectedRadicals = STORE.var('selectedRadicals');
@@ -211,6 +247,11 @@ function initEventBindings(){
 
   window.addEventListener('keyup', e => (e.which === 27 /* Esc */ ) && hidePopups() );
   window.addEventListener('keydown', preventDefaultBrowserSearchInvocation);
+  $$$('.search__input').addEventListener('keydown', onSearchInputKeyup);
+
+
+  $$.delegate('.radicals__li', 'mouseover', onRadicalItemHover);
+  $$.delegate('.radicals__li', 'mouseout', onRadicalItemHover);
 
   $$.delegate('.radicals__checkbox', 'change', onRadicalCheckboxChange);
   $$.delegate('.tags__remove', 'click', onRadicalTagRemove);
