@@ -658,6 +658,13 @@
     "lesson": 10
   },
   {
+    "chinese": "那儿",
+    "pinyin": "nà'er",
+    "russian": "там",
+    "radicals": "冂二阝月儿",
+    "lesson": 10
+  },
+  {
     "chinese": "宿舍",
     "pinyin": "sùshè",
     "russian": "общежитие",
@@ -814,20 +821,20 @@
   {
     "chinese": "一",
     "pinyin": "yī",
-    "russian": "один",
+    "russian": "один; 1",
     "radicals": "一",
     "lesson": 11
   },
   {
     "chinese": "二",
     "pinyin": "èr",
-    "russian": "два",
+    "russian": "два; 2",
     "radicals": "二",
     "lesson": 11
   },
   {
     "chinese": "三",
-    "pinyin": "sān",
+    "pinyin": "sān; 3",
     "russian": "три",
     "radicals": "一二",
     "lesson": 11
@@ -835,77 +842,77 @@
   {
     "chinese": "四",
     "pinyin": "sì",
-    "russian": "четыре",
+    "russian": "четыре; 4",
     "radicals": "囗儿",
     "lesson": 11
   },
   {
     "chinese": "五",
     "pinyin": "wǔ",
-    "russian": "пять",
+    "russian": "пять; 5",
     "radicals": "五",
     "lesson": 11
   },
   {
     "chinese": "六",
     "pinyin": "liù",
-    "russian": "шесть",
+    "russian": "шесть; 6",
     "radicals": "亠八",
     "lesson": 11
   },
   {
     "chinese": "七",
     "pinyin": "qī",
-    "russian": "семь",
+    "russian": "семь; 7",
     "radicals": "乚",
     "lesson": 11
   },
   {
     "chinese": "八",
     "pinyin": "bā",
-    "russian": "восемь",
+    "russian": "восемь; 8",
     "radicals": "八",
     "lesson": 11
   },
   {
     "chinese": "九",
     "pinyin": "jiǔ",
-    "russian": "девять",
+    "russian": "девять; 9",
     "radicals": "丿乚",
     "lesson": 11
   },
   {
     "chinese": "十",
     "pinyin": "shí",
-    "russian": "десять",
+    "russian": "десять; 10",
     "radicals": "十",
     "lesson": 11
   },
   {
     "chinese": "零",
     "pinyin": "líng",
-    "russian": "ноль",
+    "russian": "ноль; 0",
     "radicals": "雨一冂丨令人丶龴",
     "lesson": 11
   },
   {
     "chinese": "十一",
     "pinyin": "shí yī",
-    "russian": "одиннадцать",
+    "russian": "одиннадцать; 11",
     "radicals": "十一",
     "lesson": 11
   },
   {
     "chinese": "二十",
     "pinyin": "èr shí",
-    "russian": "двадцать",
+    "russian": "двадцать; 12",
     "radicals": "二十",
     "lesson": 11
   },
   {
     "chinese": "二十一",
     "pinyin": "èr shí yī",
-    "russian": "двадцать один",
+    "russian": "двадцать один; 21",
     "radicals": "二十一",
     "lesson": 11
   },
