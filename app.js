@@ -108,10 +108,10 @@ function onRadicalCheckboxChange(e) {
   var selectedRadicals = STORE.var('selectedRadicals');
   var checkbox = e.target;
   var container = checkbox.parentNode.parentNode;
-  var {radical, name} = container.dataset;
+  var {radical, name, defaultName} = container.dataset;
 
   if (checkbox.checked) {
-    selectedRadicals[radical] = name;
+    selectedRadicals[radical] = name || defaultName;
   }
   else {
     delete selectedRadicals[radical];

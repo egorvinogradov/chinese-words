@@ -2,381 +2,566 @@
   {
     "radical": "亻",
     "name_russian": "человек ⟨вариант слева⟩",
-    "is_canonical": true
+    "strokes": "亻"
   },
   {
     "radical": "冖",
     "name_russian": "крышка",
-    "is_canonical": true
+    "strokes": "冖"
   },
   {
     "radical": "小",
     "name_russian": "маленький",
-    "is_canonical": true
+    "strokes": "小"
   },
   {
     "radical": "女",
     "name_russian": "женщина",
-    "is_canonical": true
+    "strokes": "女"
   },
   {
     "radical": "子",
     "name_russian": "ребёнок",
-    "is_canonical": true
+    "strokes": "子"
   },
   {
     "radical": "口",
     "name_russian": "рот",
-    "is_canonical": true
+    "strokes": "口"
   },
   {
     "radical": "马",
     "name_russian": "лошадь",
-    "is_canonical": true
+    "strokes": "马"
   },
   {
     "radical": "戈",
     "name_russian": "алебарда",
-    "is_canonical": true
+    "strokes": "戈"
   },
   {
     "radical": "彳",
     "name_russian": "шаг левой ногой",
-    "is_canonical": true
+    "strokes": "彳"
   },
   {
     "radical": "艮",
     "name_russian": "твердый; крепкий",
-    "is_canonical": true
+    "strokes": "艮"
   },
   {
     "radical": "尸",
     "name_russian": "труп",
-    "is_canonical": true
+    "strokes": "尸"
   },
   {
     "radical": "匕",
     "name_russian": "черпак",
-    "is_canonical": true
+    "strokes": "匕"
   },
   {
     "radical": "忄",
     "name_russian": "сердце",
-    "is_canonical": true
+    "strokes": "忄"
   },
   {
     "radical": "匸",
     "name_russian": "прятать",
-    "is_canonical": true
+    "strokes": "匸"
   },
   {
     "radical": "父",
     "name_russian": "отец",
-    "is_canonical": true
+    "strokes": "父"
   },
   {
     "radical": "巴",
     "name_russian": "удав",
-    "is_canonical": true
+    "strokes": "巴"
   },
   {
     "radical": "门",
     "name_russian": "дверь",
-    "is_canonical": true
+    "strokes": "门"
   },
   {
     "radical": "土",
     "name_russian": "земля",
-    "is_canonical": true
+    "strokes": "土"
   },
   {
     "radical": "日",
     "name_russian": "солнце",
-    "is_canonical": true
+    "strokes": "日"
   },
   {
     "radical": "阝",
     "name_russian": "город; холм",
-    "is_canonical": true
+    "strokes": "阝"
   },
   {
     "radical": "田",
     "name_russian": "поле",
-    "is_canonical": true
+    "strokes": "田"
   },
   {
     "radical": "力",
     "name_russian": "сила",
-    "is_canonical": true
+    "strokes": "力"
   },
   {
     "radical": "月",
     "name_russian": "месяц; луна",
-    "is_canonical": true
+    "strokes": "月"
   },
   {
     "radical": "十",
     "name_russian": "десять",
-    "is_canonical": true
+    "strokes": "十"
   },
   {
     "radical": "又",
     "name_russian": "ладонь правой руки",
-    "is_canonical": true
+    "strokes": "又"
   },
   {
     "radical": "心",
     "name_russian": "сердце ⟨основной вариант⟩",
-    "is_canonical": true
+    "strokes": "心"
   },
   {
     "radical": "覀",
     "name_russian": "запад ⟨верхний вариант⟩",
-    "is_canonical": true
+    "strokes": "覀囗"
   },
   {
     "radical": "非",
     "name_russian": "ошибка",
-    "is_canonical": true
+    "strokes": "非"
   },
   {
     "radical": "弓",
     "name_russian": "лук (для стрельбы)",
-    "is_canonical": true
+    "strokes": "弓"
   },
   {
     "radical": "勹",
     "name_russian": "оборачивать",
-    "is_canonical": true
+    "strokes": "勹"
   },
   {
     "radical": "人",
     "name_russian": "человек ⟨основной вариант⟩",
-    "is_canonical": true
+    "strokes": "人"
   },
   {
     "radical": "丁",
     "name_russian": "гвоздь",
-    "is_canonical": false
+    "strokes": "丁",
+    "non_canonical": true
   },
   {
     "radical": "玉",
     "name_russian": "нефрит; яшма",
-    "is_canonical": true
+    "strokes": "玉王"
   },
   {
     "radical": "囗",
     "name_russian": "ограда",
-    "is_canonical": true
+    "strokes": "囗"
   },
   {
     "radical": "讠",
     "name_russian": "речь ⟨вариант слева⟩",
-    "is_canonical": true
+    "strokes": "讠"
   },
   {
     "radical": "隹",
     "name_russian": "короткохвостая птица",
-    "is_canonical": true
+    "strokes": "隹亻主"
   },
   {
     "radical": "刂",
     "name_russian": "нож ⟨вариант слева⟩",
-    "is_canonical": true
+    "strokes": "刂"
   },
   {
     "radical": "巾",
     "name_russian": "платок",
-    "is_canonical": true
+    "strokes": "巾冂"
   },
   {
     "radical": "文",
     "name_russian": "письмена",
-    "is_canonical": true
+    "strokes": "文宀又"
   },
   {
     "radical": "辶",
     "name_russian": "идти быстро",
-    "is_canonical": true
+    "strokes": "辶"
   },
   {
     "radical": "夕",
     "name_russian": "вечер",
-    "is_canonical": true
+    "strokes": "夕"
   },
   {
     "radical": "卜",
     "name_russian": "гадать",
-    "is_canonical": true
+    "strokes": "卜"
   },
   {
     "radical": "五",
     "name_russian": "пять",
-    "is_canonical": false
+    "strokes": "五",
+    "non_canonical": true
   },
   {
     "radical": "矢",
     "name_russian": "стрела",
-    "is_canonical": true
+    "strokes": "矢天大人"
   },
   {
     "radical": "氵",
     "name_russian": "вода",
-    "is_canonical": true
+    "strokes": "氵"
   },
   {
     "radical": "皮",
     "name_russian": "кожа",
-    "is_canonical": true
+    "strokes": "皮又"
   },
   {
     "radical": "东",
     "name_russian": "восток",
-    "is_canonical": false
+    "strokes": "东小",
+    "non_canonical": true
   },
   {
     "radical": "亠",
     "name_russian": "накрывать",
-    "is_canonical": true
+    "strokes": "亠"
   },
   {
     "radical": "井",
     "name_russian": "колодец",
-    "is_canonical": false
+    "strokes": "井二",
+    "non_canonical": true
   },
   {
     "radical": "青",
     "name_russian": "jing; qing ⟨фонетик⟩",
-    "is_canonical": true
+    "strokes": "青龶土月"
   },
   {
     "radical": "一",
     "name_russian": "один",
-    "is_canonical": true
+    "strokes": "一"
   },
   {
     "radical": "贝",
     "name_russian": "ракушка",
-    "is_canonical": true
+    "strokes": "贝冂人"
+  },
+  {
+    "radical": "乃",
+    "name_russian": "каракатица",
+    "strokes": "乃",
+    "non_canonical": true
   },
   {
     "radical": "木",
     "name_russian": "дерево",
-    "is_canonical": true
+    "strokes": "木十"
   },
   {
     "radical": "爫",
     "name_russian": "когти",
-    "is_canonical": false
+    "strokes": "爫",
+    "non_canonical": true
   },
   {
     "radical": "宀",
     "name_russian": "крыша",
-    "is_canonical": true
+    "strokes": "宀"
   },
   {
     "radical": "白",
     "name_russian": "белый",
-    "is_canonical": true
+    "strokes": "白日"
   },
   {
     "radical": "艹",
     "name_russian": "трава",
-    "is_canonical": true
+    "strokes": "艹"
   },
   {
     "radical": "央",
     "name_russian": "герой",
-    "is_canonical": false
+    "strokes": "央口大人",
+    "non_canonical": true
   },
   {
     "radical": "合",
     "name_russian": "соединять",
-    "is_canonical": false
+    "strokes": "合人口",
+    "non_canonical": true
   },
   {
     "radical": "手",
     "name_russian": "рука",
-    "is_canonical": true
+    "strokes": "手"
   },
   {
     "radical": "⺷",
     "name_russian": "баран",
-    "is_canonical": true
+    "strokes": "⺷王䒑丷"
   },
   {
     "radical": "大",
     "name_russian": "большой",
-    "is_canonical": true
+    "strokes": "大人"
   },
   {
     "radical": "元",
     "name_russian": "юань",
-    "is_canonical": false
+    "strokes": "元兀几儿",
+    "non_canonical": true
   },
   {
     "radical": "百",
     "name_russian": "сто; сотня",
-    "is_canonical": false
+    "strokes": "百白日",
+    "non_canonical": true
   },
   {
     "radical": "舌",
     "name_russian": "язык (орган)",
-    "is_canonical": true
+    "strokes": "舌古十口"
   },
   {
     "radical": "身",
     "name_russian": "тело",
-    "is_canonical": true
+    "strokes": "身自目"
   },
   {
     "radical": "寸",
     "name_russian": "вершок",
-    "is_canonical": true
+    "strokes": "寸"
   },
   {
     "radical": "首",
     "name_russian": "голова",
-    "is_canonical": true
+    "strokes": "首䒑丷自目"
   },
   {
     "radical": "几",
     "name_russian": "столик",
-    "is_canonical": true
+    "strokes": "几儿"
   },
   {
     "radical": "天",
     "name_russian": "небо",
-    "is_canonical": false
+    "strokes": "天大人",
+    "non_canonical": true
   },
   {
     "radical": "糸",
     "name_russian": "шелк",
-    "is_canonical": true
+    "strokes": "糸幺厶小"
   },
   {
     "radical": "见",
     "name_russian": "видеть",
-    "is_canonical": true
+    "strokes": "见冂儿"
   },
   {
     "radical": "且",
     "name_russian": "посуда",
-    "is_canonical": false
+    "strokes": "且目",
+    "non_canonical": true
   },
   {
     "radical": "免",
     "name_russian": "кролик",
-    "is_canonical": false
+    "strokes": "免宀口儿",
+    "non_canonical": true
   },
   {
     "radical": "雨",
     "name_russian": "дождь",
-    "is_canonical": true
+    "strokes": "雨巾冂"
   },
   {
     "radical": "令",
     "name_russian": "leng; ling ⟨фонетик⟩",
-    "is_canonical": false
+    "strokes": "令人龴",
+    "non_canonical": true
+  },
+  {
+    "radical": "方",
+    "name_russian": "квадрат",
+    "strokes": "方亠"
+  },
+  {
+    "radical": "乍",
+    "name_russian": "расческа",
+    "strokes": "乍",
+    "non_canonical": true
+  },
+  {
+    "radical": "古",
+    "name_russian": "древний",
+    "strokes": "古十口",
+    "non_canonical": true
+  },
+  {
+    "radical": "羊",
+    "name_russian": "баран ⟨второй вариант⟩",
+    "strokes": "羊⺷王䒑丷"
+  },
+  {
+    "radical": "音",
+    "name_russian": "звук",
+    "strokes": "音立日亠䒑丷"
+  },
+  {
+    "radical": "水",
+    "name_russian": "вода ⟨основной вариант⟩",
+    "strokes": "水"
+  },
+  {
+    "radical": "亾",
+    "name_russian": null,
+    "strokes": "亾人",
+    "non_canonical": true
+  },
+  {
+    "radical": "𤴓",
+    "name_russian": null,
+    "strokes": "𤴓龰人",
+    "non_canonical": true
+  },
+  {
+    "radical": "高",
+    "name_russian": null,
+    "strokes": "高亠口冂"
+  },
+  {
+    "radical": "牛",
+    "name_russian": null,
+    "strokes": "牛"
+  },
+  {
+    "radical": "言",
+    "name_russian": null,
+    "strokes": "言亠口"
+  },
+  {
+    "radical": "云",
+    "name_russian": null,
+    "strokes": "云二厶",
+    "non_canonical": true
+  },
+  {
+    "radical": "乙",
+    "name_russian": null,
+    "strokes": "乙乚"
+  },
+  {
+    "radical": "么",
+    "name_russian": null,
+    "strokes": "么厶",
+    "non_canonical": true
+  },
+  {
+    "radical": "立",
+    "name_russian": null,
+    "strokes": "立亠丷"
+  },
+  {
+    "radical": "王",
+    "name_russian": null,
+    "strokes": "王玉"
+  },
+  {
+    "radical": "𠂇",
+    "name_russian": null,
+    "strokes": "𠂇",
+    "non_canonical": true
+  },
+  {
+    "radical": "乜",
+    "name_russian": null,
+    "strokes": "乜",
+    "non_canonical": true
+  },
+  {
+    "radical": "不",
+    "name_russian": null,
+    "strokes": "不",
+    "non_canonical": true
+  },
+  {
+    "radical": "八",
+    "name_russian": null,
+    "strokes": "八"
+  },
+  {
+    "radical": "己",
+    "name_russian": null,
+    "strokes": "己"
+  },
+  {
+    "radical": "乚",
+    "name_russian": null,
+    "strokes": "乚"
+  },
+  {
+    "radical": "二",
+    "name_russian": null,
+    "strokes": "二"
+  },
+  {
+    "radical": "丷",
+    "name_russian": null,
+    "strokes": "丷",
+    "non_canonical": true
+  },
+  {
+    "radical": "匚",
+    "name_russian": null,
+    "strokes": "匚"
+  },
+  {
+    "radical": "厶",
+    "name_russian": null,
+    "strokes": "厶"
+  },
+  {
+    "radical": "了",
+    "name_russian": null,
+    "strokes": "了"
+  },
+  {
+    "radical": "儿",
+    "name_russian": null,
+    "strokes": "儿"
+  },
+  {
+    "radical": "冂",
+    "name_russian": null,
+    "strokes": "冂"
+  },
+  {
+    "radical": "厂",
+    "name_russian": null,
+    "strokes": "厂"
+  },
+  {
+    "radical": "丂",
+    "name_russian": null,
+    "strokes": "丂",
+    "non_canonical": true
   }
 ]

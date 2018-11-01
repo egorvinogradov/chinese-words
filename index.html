@@ -53,12 +53,12 @@
     </span>
 
     <ul class="radicals" t-each="displayedRadicals" t-show="displayedRadicals|object" hidden>
-      <li class="radicals__li" data-radical="${t('radical')}" data-name="${t('name_russian')}">
+      <li class="radicals__li" data-radical="${t('radical')}" data-name="${t('name_russian')}" data-default-name="(без названия)">
         <label class="radicals__label">
           <input class="radicals__checkbox" type="checkbox"/>
           <span class="radicals__radical">${t('radical')}</span>
           <span class="radicals__name">${t('name_russian')}</span>
-          ${!t('is_canonical') ? '<span class="radicals__non-canonical">•</span>' : ''}
+          ${t('non_canonical') ? '<span class="radicals__non-canonical">•</span>' : ''}
         </label>
       </li>
     </ul>
