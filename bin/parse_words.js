@@ -5,15 +5,16 @@ javascript:(function(){
       return {
         chinese: item[0],
         pinyin: item[1],
-        translation: item[2],
-        lesson: +item[3],
+        russian: item[2],
+        radicals: item[3] || '',
+        lesson: +item[4],
       }
     });
     console.log('Parsed words', words);
     window.chinese_words = words;
 
     setTimeout(() => {
-      var jsonStr = JSON.stringify(words, 0, 2).replace(/^\[\n\s+/, '').replace(/\n]$/, '');
+      var jsonStr = JSON.stringify(words, 0, 2);
       navigator.clipboard.writeText(jsonStr);
     }, 1000);
   }

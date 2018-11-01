@@ -20,7 +20,7 @@ javascript:(function(){
     window.chinese_radicals = radicals;
 
     setTimeout(() => {
-      var jsonStr = JSON.stringify(radicals, 0, 2).replace(/^\[\n\s+/, '').replace(/\n]$/, '');
+      var jsonStr = JSON.stringify(radicals, 0, 2);
       navigator.clipboard.writeText(jsonStr);
     }, 1000);
   }
