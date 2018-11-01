@@ -24,14 +24,14 @@
     "chinese": "你好",
     "pinyin": "nǐ hǎo",
     "russian": "привет",
-    "radicals": "",
+    "radicals": "亻冖小女子",
     "lesson": 2
   },
   {
     "chinese": "你好吗？",
     "pinyin": "nǐ hǎo ma?",
     "russian": "Как дела?",
-    "radicals": "",
+    "radicals": "亻冖小女子口马",
     "lesson": 2
   },
   {
@@ -101,7 +101,7 @@
     "chinese": "他们",
     "pinyin": "tāmen",
     "russian": "они",
-    "radicals": "",
+    "radicals": "亻乜门",
     "lesson": 4
   },
   {
@@ -115,14 +115,14 @@
     "chinese": "我们",
     "pinyin": "wǒmen",
     "russian": "мы",
-    "radicals": "",
+    "radicals": "手戈亻门",
     "lesson": 4
   },
   {
     "chinese": "你们",
     "pinyin": "nǐmen",
     "russian": "вы (мн. число)",
-    "radicals": "",
+    "radicals": "亻冖小门",
     "lesson": 4
   },
   {
@@ -164,14 +164,14 @@
     "chinese": "男朋友",
     "pinyin": "nán péngyou",
     "russian": "парень (отношения)",
-    "radicals": "",
+    "radicals": "田力月𠂇又",
     "lesson": 4
   },
   {
     "chinese": "女朋友",
     "pinyin": "nǚ péngyou",
     "russian": "девушка (отношения)",
-    "radicals": "",
+    "radicals": "月𠂇又女",
     "lesson": 4
   },
   {
@@ -192,7 +192,7 @@
     "chinese": "要",
     "pinyin": "yào",
     "russian": "хотеть; надо; нужно",
-    "radicals": "覀女",
+    "radicals": "覀女囗",
     "lesson": 4
   },
   {
@@ -206,14 +206,14 @@
     "chinese": "喝",
     "pinyin": "hē",
     "russian": "пить",
-    "radicals": "口日勹亾",
+    "radicals": "口日勹亾人",
     "lesson": 4
   },
   {
     "chinese": "是",
     "pinyin": "shì",
     "russian": "быть; являться",
-    "radicals": "日𤴓",
+    "radicals": "日𤴓龰人",
     "lesson": 6
   },
   {
@@ -227,7 +227,7 @@
     "chinese": "国",
     "pinyin": "guó",
     "russian": "страна; государство",
-    "radicals": "囗玉",
+    "radicals": "囗玉王",
     "lesson": 6
   },
   {
@@ -248,7 +248,7 @@
     "chinese": "谁",
     "pinyin": "shéi",
     "russian": "кто",
-    "radicals": "讠隹",
+    "radicals": "讠隹亻主",
     "lesson": 6
   },
   {
@@ -262,14 +262,14 @@
     "chinese": "师",
     "pinyin": "shī",
     "russian": "мастер ⟨отдельно не употребляется⟩",
-    "radicals": "刂巾",
+    "radicals": "刂巾冂",
     "lesson": 6
   },
   {
     "chinese": "老师",
     "pinyin": "lǎoshī",
     "russian": "учитель",
-    "radicals": "",
+    "radicals": "土匕刂巾冂",
     "lesson": 6
   },
   {
@@ -283,21 +283,21 @@
     "chinese": "中国",
     "pinyin": "zhōngguó",
     "russian": "Китай",
-    "radicals": "",
+    "radicals": "囗玉王口",
     "lesson": 6
   },
   {
     "chinese": "中国人",
     "pinyin": "zhōngguórén",
     "russian": "китаец",
-    "radicals": "",
+    "radicals": "囗玉王人口",
     "lesson": 6
   },
   {
     "chinese": "这",
     "pinyin": "zhè",
     "russian": "это",
-    "radicals": "辶文",
+    "radicals": "辶文宀又",
     "lesson": 6
   },
   {
@@ -318,14 +318,14 @@
     "chinese": "外语",
     "pinyin": "wàiyǔ",
     "russian": "иностранный язык",
-    "radicals": "",
+    "radicals": "夕卜讠五口",
     "lesson": 7
   },
   {
     "chinese": "医",
     "pinyin": "yī",
     "russian": "медицина",
-    "radicals": "匚矢",
+    "radicals": "匚矢天大人",
     "lesson": 7
   },
   {
@@ -339,7 +339,7 @@
     "chinese": "医生",
     "pinyin": "yīshēng",
     "russian": "врач; доктор",
-    "radicals": "",
+    "radicals": "匚矢天大人牛",
     "lesson": 7
   },
   {
@@ -353,14 +353,14 @@
     "chinese": "外婆",
     "pinyin": "wàipó",
     "russian": "бабушка по материнской линии",
-    "radicals": "氵皮女",
+    "radicals": "氵皮女夕卜厂又",
     "lesson": 7
   },
   {
     "chinese": "陈",
     "pinyin": "Chén",
     "russian": "Чен (распространенная фамилия)",
-    "radicals": "阝东",
+    "radicals": "阝东小",
     "lesson": 7
   },
   {
@@ -374,7 +374,7 @@
     "chinese": "高",
     "pinyin": "gāo",
     "russian": "высокий",
-    "radicals": "高",
+    "radicals": "高亠口冂",
     "lesson": 8
   },
   {
@@ -388,7 +388,7 @@
     "chinese": "高兴",
     "pinyin": "gāoxìng",
     "russian": "радостный; счастливый",
-    "radicals": "",
+    "radicals": "高亠口冂八",
     "lesson": 8
   },
   {
@@ -402,28 +402,28 @@
     "chinese": "进",
     "pinyin": "jìn",
     "russian": "входить",
-    "radicals": "辶井",
+    "radicals": "辶井二",
     "lesson": 8
   },
   {
     "chinese": "来",
     "pinyin": "lái",
     "russian": "приходить; приезжать",
-    "radicals": "木",
+    "radicals": "木十",
     "lesson": 8
   },
   {
     "chinese": "进来",
     "pinyin": "jìnlái",
     "russian": "входить (именно вот сюда)",
-    "radicals": "",
+    "radicals": "辶井二木十",
     "lesson": 8
   },
   {
     "chinese": "请",
     "pinyin": "qǐng",
     "russian": "пожалуйста; приглашать; просить",
-    "radicals": "讠青",
+    "radicals": "讠青龶土月",
     "lesson": 8
   },
   {
@@ -444,7 +444,7 @@
     "chinese": "记者",
     "pinyin": "jìzhě",
     "russian": "журналист; репортер",
-    "radicals": "",
+    "radicals": "讠己土日",
     "lesson": 8
   },
   {
@@ -458,7 +458,7 @@
     "chinese": "请问",
     "pinyin": "qǐngwèn",
     "russian": "Позвольте спросить?; Скажите, пожалуйста?",
-    "radicals": "",
+    "radicals": "讠青龶土月门口",
     "lesson": 9
   },
   {
@@ -472,7 +472,7 @@
     "chinese": "贵",
     "pinyin": "guì",
     "russian": "дорогой",
-    "radicals": "口贝",
+    "radicals": "口贝冂人",
     "lesson": 9
   },
   {
@@ -486,7 +486,7 @@
     "chinese": "我叫",
     "pinyin": "wǒ jiào",
     "russian": "меня зовут...",
-    "radicals": "",
+    "radicals": "手戈口",
     "lesson": 9
   },
   {
@@ -500,21 +500,21 @@
     "chinese": "杨",
     "pinyin": "Yáng",
     "russian": "Янг (распространенная фамилия)",
-    "radicals": "木",
+    "radicals": "木十",
     "lesson": 9
   },
   {
     "chinese": "认识你（我也）很高兴",
     "pinyin": "rènshi nǐ (wǒ yě) hěn gāoxìng",
     "russian": "приятно с вами познакомиться",
-    "radicals": "",
+    "radicals": "亻冖小手戈彳艮乜讠人口八高亠冂",
     "lesson": 9
   },
   {
     "chinese": "语言",
     "pinyin": "yǔyán",
     "russian": "язык",
-    "radicals": "言",
+    "radicals": "言讠五口亠",
     "lesson": 9
   },
   {
@@ -528,42 +528,42 @@
     "chinese": "院",
     "pinyin": "yuàn",
     "russian": "заведение; учреждение",
-    "radicals": "阝宀元",
+    "radicals": "阝宀元兀几儿",
     "lesson": 9
   },
   {
     "chinese": "学院",
     "pinyin": "xuéyuàn",
     "russian": "институт",
-    "radicals": "",
+    "radicals": "冖子阝宀元兀几儿",
     "lesson": 9
   },
   {
     "chinese": "的",
     "pinyin": "de",
     "russian": "⟨частица принадлежности⟩",
-    "radicals": "白勹",
+    "radicals": "白勹日",
     "lesson": 9
   },
   {
     "chinese": "学生",
     "pinyin": "xuéshēng",
     "russian": "студент; школьник",
-    "radicals": "",
+    "radicals": "牛冖子",
     "lesson": 9
   },
   {
     "chinese": "什么",
     "pinyin": "shénme",
     "russian": "что; какой",
-    "radicals": "亻十么",
+    "radicals": "亻十么厶",
     "lesson": 9
   },
   {
     "chinese": "学习",
     "pinyin": "xuéxí",
     "russian": "учиться где-то",
-    "radicals": "",
+    "radicals": "冖子",
     "lesson": 9
   },
   {
@@ -577,35 +577,35 @@
     "chinese": "汉语",
     "pinyin": "hànyǔ",
     "russian": "китайский язык",
-    "radicals": "",
+    "radicals": "讠五口氵又",
     "lesson": 9
   },
   {
     "chinese": "中文",
     "pinyin": "zhōngwén",
     "russian": "письменный китайский язык",
-    "radicals": "口文",
+    "radicals": "口文宀又",
     "lesson": 9
   },
   {
     "chinese": "英国",
     "pinyin": "yīngguó",
     "russian": "Англия; Великобритания",
-    "radicals": "艹央",
+    "radicals": "艹央囗玉王口大人",
     "lesson": 9
   },
   {
     "chinese": "英语",
     "pinyin": "yīngyǔ",
     "russian": "английский язык",
-    "radicals": "",
+    "radicals": "讠五口",
     "lesson": 9
   },
   {
     "chinese": "大",
     "pinyin": "dà",
     "russian": "большой",
-    "radicals": "大",
+    "radicals": "大人",
     "lesson": 9
   },
   {
@@ -619,28 +619,28 @@
     "chinese": "拿",
     "pinyin": "ná",
     "russian": "брать",
-    "radicals": "合手",
+    "radicals": "合手人口",
     "lesson": 9
   },
   {
     "chinese": "美",
     "pinyin": "měi",
     "russian": "красивый",
-    "radicals": "⺷大",
+    "radicals": "⺷大王䒑丷人",
     "lesson": 9
   },
   {
     "chinese": "美国",
     "pinyin": "měiguó",
     "russian": "Америка; США",
-    "radicals": "",
+    "radicals": "囗玉王⺷大䒑丷人",
     "lesson": 9
   },
   {
     "chinese": "餐厅",
     "pinyin": "cāntīng",
     "russian": "столовая (студенческая)",
-    "radicals": "夕又人艮",
+    "radicals": "夕又人艮厂丁",
     "lesson": 10
   },
   {
@@ -661,21 +661,21 @@
     "chinese": "哪儿",
     "pinyin": "nǎ'er",
     "russian": "где; куда",
-    "radicals": "儿",
+    "radicals": "儿口月阝冂二",
     "lesson": 10
   },
   {
     "chinese": "那儿",
     "pinyin": "nà'er",
     "russian": "там",
-    "radicals": "儿",
+    "radicals": "儿月阝冂二",
     "lesson": 10
   },
   {
     "chinese": "宿舍",
     "pinyin": "sùshè",
     "russian": "общежитие",
-    "radicals": "宀亻百人舌",
+    "radicals": "宀亻百人舌白日古十口",
     "lesson": 10
   },
   {
@@ -696,7 +696,7 @@
     "chinese": "谢谢",
     "pinyin": "xièxie",
     "russian": "спасибо; благодарить",
-    "radicals": "讠身寸",
+    "radicals": "讠身寸自目",
     "lesson": 10
   },
   {
@@ -710,63 +710,63 @@
     "chinese": "起",
     "pinyin": "qǐ",
     "russian": "вставать; подниматься",
-    "radicals": "𤴓土己",
+    "radicals": "𤴓土己龰人",
     "lesson": 10
   },
   {
     "chinese": "对不起",
     "pinyin": "duìbuqǐ",
     "russian": "Извините!",
-    "radicals": "",
+    "radicals": "不又寸𤴓土己龰人",
     "lesson": 10
   },
   {
     "chinese": "道",
     "pinyin": "dào",
     "russian": "жизненный путь",
-    "radicals": "辶首",
+    "radicals": "辶首䒑丷自目",
     "lesson": 10
   },
   {
     "chinese": "知道",
     "pinyin": "zhīdào",
     "russian": "знать",
-    "radicals": "矢口",
+    "radicals": "矢口辶首䒑丷自目天大人",
     "lesson": 10
   },
   {
     "chinese": "没",
     "pinyin": "méi",
     "russian": "нет; не ⟨только в прошедшем времени⟩",
-    "radicals": "氵几又",
+    "radicals": "氵几又儿",
     "lesson": 10
   },
   {
     "chinese": "关",
     "pinyin": "guān",
     "russian": "закрывать; выключать",
-    "radicals": "丷天",
+    "radicals": "丷天大人",
     "lesson": 10
   },
   {
     "chinese": "系",
     "pinyin": "xì",
     "russian": "факультет",
-    "radicals": "糸",
+    "radicals": "糸幺厶小",
     "lesson": 10
   },
   {
     "chinese": "没关系",
     "pinyin": "méiguānxì",
     "russian": "Ничего страшного!",
-    "radicals": "",
+    "radicals": "氵几又儿丷天大人糸幺厶小",
     "lesson": 10
   },
   {
     "chinese": "关系",
     "pinyin": "guānxì",
     "russian": "связи (знакомства); связь (тех. соединение)",
-    "radicals": "",
+    "radicals": "丷天大人糸幺厶小",
     "lesson": 10
   },
   {
@@ -780,28 +780,28 @@
     "chinese": "见",
     "pinyin": "jiàn",
     "russian": "видеть",
-    "radicals": "见",
+    "radicals": "见冂儿",
     "lesson": 10
   },
   {
     "chinese": "再见",
     "pinyin": "zàijiàn",
     "russian": "До свидания!",
-    "radicals": "",
+    "radicals": "冂土见儿",
     "lesson": 10
   },
   {
     "chinese": "云",
     "pinyin": "yún",
     "russian": "облако",
-    "radicals": "云",
+    "radicals": "云二厶",
     "lesson": 10
   },
   {
     "chinese": "王",
     "pinyin": "wáng",
     "russian": "князь; Ван (распространенная фамилия)",
-    "radicals": "王",
+    "radicals": "王玉",
     "lesson": 10
   },
   {
@@ -815,14 +815,14 @@
     "chinese": "姐姐",
     "pinyin": "jiějiě",
     "russian": "старшая сестра",
-    "radicals": "女且",
+    "radicals": "女且目",
     "lesson": 11
   },
   {
     "chinese": "小姐",
     "pinyin": "xiǎojiě",
     "russian": "мисс; девушка (неприличное на юге Китая)",
-    "radicals": "小女且",
+    "radicals": "小女且目",
     "lesson": 11
   },
   {
@@ -885,7 +885,7 @@
     "chinese": "九",
     "pinyin": "jiǔ",
     "russian": "девять; 9",
-    "radicals": "乙",
+    "radicals": "乙乚",
     "lesson": 11
   },
   {
@@ -899,7 +899,7 @@
     "chinese": "零",
     "pinyin": "líng",
     "russian": "ноль; 0",
-    "radicals": "雨令",
+    "radicals": "雨令巾冂人龴",
     "lesson": 11
   },
   {
@@ -927,7 +927,7 @@
     "chinese": "层",
     "pinyin": "céng",
     "russian": "этаж",
-    "radicals": "尸云",
+    "radicals": "尸云二厶",
     "lesson": 11
   },
   {
@@ -948,21 +948,21 @@
     "chinese": "不用",
     "pinyin": "bùyòng",
     "russian": "Спасибо, не нужно! ⟨вежливое по сравнению с bu yào⟩",
-    "radicals": "",
+    "radicals": "不月",
     "lesson": 11
   },
   {
     "chinese": "这儿",
     "pinyin": "zhè'er",
     "russian": "здесь; сюда",
-    "radicals": "辶文儿",
+    "radicals": "辶文儿宀又",
     "lesson": 11
   },
   {
     "chinese": "晚",
     "pinyin": "wǎn",
     "russian": "поздний; поздно",
-    "radicals": "日免",
+    "radicals": "日免宀口儿",
     "lesson": 11
   },
   {
@@ -983,14 +983,14 @@
     "chinese": "游泳",
     "pinyin": "yóuyǒng",
     "russian": "плавать; купаться",
-    "radicals": "氵方冖子水",
+    "radicals": "氵方冖子水亠",
     "lesson": 15
   },
   {
     "chinese": "昨天",
     "pinyin": "zuótiān",
     "russian": "вчера",
-    "radicals": "日乍",
+    "radicals": "日乍天大人",
     "lesson": 15
   },
   {
@@ -1004,21 +1004,21 @@
     "chinese": "剧",
     "pinyin": "jù",
     "russian": "пьеса",
-    "radicals": "尸古刂",
+    "radicals": "尸古刂十口",
     "lesson": 15
   },
   {
     "chinese": "京剧",
     "pinyin": "jīngjù",
     "russian": "пекинская опера",
-    "radicals": "",
+    "radicals": "亠口小尸古刂十",
     "lesson": 15
   },
   {
     "chinese": "怎么样",
     "pinyin": "zěnmeyàng",
     "russian": "Как тебе это? (вопрос о мнении человека о чем-то)",
-    "radicals": "乍心么木羊",
+    "radicals": "乍心么木羊厶十⺷王䒑丷",
     "lesson": 15
   },
   {
@@ -1032,98 +1032,98 @@
     "chinese": "意思",
     "pinyin": "yìsi",
     "russian": "смысл",
-    "radicals": "音心田",
+    "radicals": "音心田立日亠䒑丷",
     "lesson": 15
   },
   {
     "chinese": "你什么意思？",
     "pinyin": "Nǐ shénme yìsi?",
     "russian": "В смысле?; Что ты имеешь в виду?",
-    "radicals": "",
+    "radicals": "亻冖小十么厶音心田立日亠䒑丷",
     "lesson": 15
   },
   {
     "chinese": "有意思",
     "pinyin": "yǒuyìsi",
     "russian": "интересный",
-    "radicals": "",
+    "radicals": "𠂇月音心田立日亠䒑丷",
     "lesson": 15
   },
   {
     "chinese": "没有",
     "pinyin": "méiyǒu",
     "russian": "не иметь",
-    "radicals": "",
+    "radicals": "氵几又儿𠂇月",
     "lesson": 15
   },
   {
     "chinese": "今天",
     "pinyin": "jīntiān",
     "russian": "сегодня",
-    "radicals": "令",
+    "radicals": "令天人龴大",
     "lesson": 15
   },
   {
     "chinese": "天",
     "pinyin": "tiān",
     "russian": "день",
-    "radicals": "天",
+    "radicals": "天大人",
     "lesson": 15
   },
   {
     "chinese": "天气",
     "pinyin": "tiānqì",
     "russian": "погода",
-    "radicals": "",
+    "radicals": "天大人冖乙乚",
     "lesson": 15
   },
   {
     "chinese": "气",
     "pinyin": "qì",
     "russian": "газ; воздух",
-    "radicals": "冖乙",
+    "radicals": "冖乙乚",
     "lesson": 15
   },
   {
     "chinese": "太",
     "pinyin": "tài",
     "russian": "слишком",
-    "radicals": "大",
+    "radicals": "大人",
     "lesson": 15
   },
   {
     "chinese": "太大了",
     "pinyin": "tài dà le",
     "russian": "очень большой (позитивный контекст) ⟨употребимо с любым прилагательным⟩",
-    "radicals": "",
+    "radicals": "大人了",
     "lesson": 15
   },
   {
     "chinese": "太大",
     "pinyin": "tài dà",
     "russian": "слишком большой; чрезмерный (негативный контекст) ⟨употребимо с любым прилагательным⟩",
-    "radicals": "",
+    "radicals": "大人",
     "lesson": 15
   },
   {
     "chinese": "什么时候",
     "pinyin": "shénme shíhou",
     "russian": "когда? ⟨вопросительное слово⟩",
-    "radicals": "",
+    "radicals": "亻十么厶日寸矢天大人",
     "lesson": 15
   },
   {
     "chinese": "时候",
     "pinyin": "shíhou",
     "russian": "время",
-    "radicals": "日寸亻矢",
+    "radicals": "日寸亻矢天大人",
     "lesson": 15
   },
   {
     "chinese": "现在",
     "pinyin": "xiànzài",
     "russian": "сейчас; теперь",
-    "radicals": "王见",
+    "radicals": "王见亻𠂇土玉冂儿",
     "lesson": 15
   }
 ]

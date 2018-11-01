@@ -28,3 +28,4 @@ javascript:(function(){
     window.open('https://docs.google.com/spreadsheets/d/1HsUFYPAqch4DChO28lG--tgJ90BnqlxVKdOxYck1dBQ/edit#gid=1498455902');
   }
 }());
+youtube.com

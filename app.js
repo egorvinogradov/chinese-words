@@ -1,5 +1,5 @@
 function prepareSearchDict(){
-  var words = STORE.var('words').map(item => {
+  const words = STORE.var('words').map(item => {
     item.search = normalizeStr(item.chinese + ' ' + item.pinyin + ' ' + item.russian);
     return item;
   });
@@ -8,7 +8,7 @@ function prepareSearchDict(){
 
 
 function prepareRadicalDict(){
-  var radicals = STORE.var('radicals').map(item => {
+  const radicals = STORE.var('radicals').map(item => {
     item.search = normalizeStr(item.radical + ' ' + item.name_russian);
     return item;
   });
@@ -28,8 +28,8 @@ function normalizeStr(str){
 
 
 function isChineseCharacters(str) {
-  var re1 = new RegExp('^[\u4E00-\uFA29]*$');
-  var re2 = new RegExp('^[\uE7C7-\uE7F3]*$');
+  const re1 = new RegExp('^[\u4E00-\uFA29]*$');
+  const re2 = new RegExp('^[\uE7C7-\uE7F3]*$');
   return re1.test(str) || re2.test(str);
 }
 
@@ -53,8 +53,8 @@ function initSearch(){
 
 
 function performSearch(text){
-  var keyword = normalizeStr(text.trim());
-  var isRadical = false;
+  let keyword = normalizeStr(text.trim());
+  let isRadical = false;
   if (/^\//i.test(keyword)) {
     keyword = keyword.replace(/^\//, '');
     isRadical = true;
@@ -76,8 +76,8 @@ function getSearchMatches(keyword, words) {
 
 
 function getRadicalMatches(selectedRadicals, words) {
-  var radicalsObj;
-  var radicalsArr;
+  let radicalsObj;
+  let radicalsArr;
   if (typeof selectedRadicals === 'string') {
     radicalsObj = {};
     radicalsArr = selectedRadicals.split('');
@@ -89,8 +89,8 @@ function getRadicalMatches(selectedRadicals, words) {
   }
   if (radicalsArr.length) {
     return words.filter(word => {
-      var matchesCount = 0;
-      for (var radical in radicalsObj) {
+      let matchesCount = 0;
+      for (const radical in radicalsObj) {
         if (word.radicals.indexOf(radical) > -1) {
           matchesCount++;
         }
@@ -105,10 +105,10 @@ function getRadicalMatches(selectedRadicals, words) {
 
 
 function onRadicalCheckboxChange(e) {
-  var selectedRadicals = STORE.var('selectedRadicals');
-  var checkbox = e.target;
-  var container = checkbox.parentNode.parentNode;
-  var {radical, name, defaultName} = container.dataset;
+  const selectedRadicals = STORE.var('selectedRadicals');
+  const checkbox = e.target;
+  const container = checkbox.parentNode.parentNode;
+  const {radical, name, defaultName} = container.dataset;
 
   if (checkbox.checked) {
     selectedRadicals[radical] = name || defaultName;
@@ -122,9 +122,9 @@ function onRadicalCheckboxChange(e) {
 
 
 function onRadicalTagRemove(e) {
-  var container = e.target.parentNode;
-  var {radical} = container.dataset;
-  var selectedRadicals = STORE.var('selectedRadicals');
+  const container = e.target.parentNode;
+  const {radical} = container.dataset;
+  const selectedRadicals = STORE.var('selectedRadicals');
   delete selectedRadicals[radical];
   STORE.var({selectedRadicals});
 }
@@ -132,14 +132,14 @@ function onRadicalTagRemove(e) {
 
 function checkRadicalCheckboxes(selectedRadicals){
   $$('.radicals__checkbox').map(checkbox => {
-    var {radical} = checkbox.parentNode.parentNode.dataset;
+    const {radical} = checkbox.parentNode.parentNode.dataset;
     checkbox.checked = Boolean(selectedRadicals[radical]);
   });
 }
 
 
 function onClearSearchClick() {
-  var input = $$$('.search__input');
+  const input = $$$('.search__input');
   input.value = '';
   input.focus();
   STORE.var({
@@ -167,7 +167,7 @@ function hidePopups(){
 
 
 function onPlayClick(e) {
-  var button = e.target;
+  const button = e.target;
   button.classList.add('m-playing');
   responsiveVoice.speak(button.dataset.text, 'Chinese Male', {
     rate: 0.75,
@@ -182,13 +182,13 @@ function onSearchInputKeyup(e) {
   if (!STORE.var('displayedRadicals').length) {
     return;
   }
-  var isMoveUp = e.which === 38;
-  var isMoveDown = e.which === 40;
-  var isEnter = e.which === 13;
-  var currentSelection = $$$('.radicals__li.m-selected');
+  const isMoveUp = e.which === 38;
+  const isMoveDown = e.which === 40;
+  const isEnter = e.which === 13;
+  const currentSelection = $$$('.radicals__li.m-selected');
 
   if (isMoveUp || isMoveDown) {
-    var nextSelection;
+    let nextSelection;
     if (currentSelection) {
       nextSelection = isMoveUp ? currentSelection.previousElementSibling : currentSelection.nextElementSibling;
     }
@@ -219,7 +219,7 @@ function onInfoIconClick() {
 
 
 function onInfoTagClick(e) {
-  var text = e.target.innerText.trim();
+  const text = e.target.innerText.trim();
   $$$('.search__input').value = text;
   performSearch(text);
 }
@@ -227,12 +227,11 @@ function onInfoTagClick(e) {
 
 function initEventBindings(){
   STORE.subscribe('searchParams', (searchParams) => {
-    var selectedRadicals = STORE.var('selectedRadicals');
-    var {keyword, isRadical} = searchParams;
-    var displayedWords;
-    var displayedRadicals;
-    var displayedLessons;
-
+    const selectedRadicals = STORE.var('selectedRadicals');
+    const {keyword, isRadical} = searchParams;
+    let displayedWords;
+    let displayedRadicals;
+    let displayedLessons;
 
     if (isRadical) {
       if (keyword && isChineseCharacters(keyword)) {
@@ -313,8 +312,8 @@ function initEventBindings(){
 
 
 async function init(){
-  var words = await fetch('/data/words.json').then(data => data.json());
-  var radicals = await fetch('/data/radicals.json').then(data => data.json());
+  const words = await fetch('/data/words.json').then(data => data.json());
+  const radicals = await fetch('/data/radicals.json').then(data => data.json());
 
   STORE.var({
     words,
@@ -330,4 +329,38 @@ async function init(){
   initSearch();
 }
 
+
+function getURLParams() {
+  const params = {};
+  if (location.search) {
+    location.search.replace(/^\?/, '').split('&').forEach(pair => {
+      params[pair.split('=')[0]] = pair.split('=')[1];
+    });
+  }
+  return params;
+}
+
+
+function saveFile(data, mimeType, filename) {
+  const a = document.createElement('a');
+  const href = `data:text/plain;charset=utf-8,${encodeURIComponent(data)}`;
+  document.body.appendChild(a);
+  a.download = filename;
+  a.style = 'display: none';
+  a.href = href;
+  a.click();
+}
+
+
+function handleGoogleDriveAuth(authCode) {
+  console.log('Auth code:', authCode);
+  saveFile(authCode, 'text/plain', 'auth_code.txt');
+  history.replaceState({}, '', location.protocol + '//' + location.host);
+}
+
+
 init();
+var authCode = getURLParams().code;
+if (authCode) {
+  handleGoogleDriveAuth(authCode);
+}
