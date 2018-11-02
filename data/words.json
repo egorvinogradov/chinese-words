@@ -38,7 +38,7 @@
     "chinese": "我",
     "pinyin": "wǒ",
     "russian": "я",
-    "radicals": "手戈",
+    "radicals": "手戈扌",
     "lesson": 2
   },
   {
@@ -73,7 +73,7 @@
     "chinese": "爸爸",
     "pinyin": "bàba",
     "russian": "папа",
-    "radicals": "父巴",
+    "radicals": "父巴巳",
     "lesson": 4
   },
   {
@@ -115,7 +115,7 @@
     "chinese": "我们",
     "pinyin": "wǒmen",
     "russian": "мы",
-    "radicals": "手戈亻门",
+    "radicals": "手戈扌亻门",
     "lesson": 4
   },
   {
@@ -486,7 +486,7 @@
     "chinese": "我叫",
     "pinyin": "wǒ jiào",
     "russian": "меня зовут...",
-    "radicals": "手戈口",
+    "radicals": "手戈扌口",
     "lesson": 9
   },
   {
@@ -507,7 +507,7 @@
     "chinese": "认识你（我也）很高兴",
     "pinyin": "rènshi nǐ (wǒ yě) hěn gāoxìng",
     "russian": "приятно с вами познакомиться",
-    "radicals": "亻冖小手戈彳艮乜讠人口八高亠冂",
+    "radicals": "亻冖小手戈扌彳艮乜讠人口八高亠冂",
     "lesson": 9
   },
   {
@@ -619,7 +619,7 @@
     "chinese": "拿",
     "pinyin": "ná",
     "russian": "брать",
-    "radicals": "合手人口",
+    "radicals": "合手人口扌",
     "lesson": 9
   },
   {
@@ -983,7 +983,7 @@
     "chinese": "游泳",
     "pinyin": "yóuyǒng",
     "russian": "плавать; купаться",
-    "radicals": "氵方冖子水亠",
+    "radicals": "氵方冖子水亠求氺",
     "lesson": 15
   },
   {
@@ -1115,7 +1115,7 @@
   {
     "chinese": "时候",
     "pinyin": "shíhou",
-    "russian": "время",
+    "russian": "время ⟨не употребляется отдельно⟩",
     "radicals": "日寸亻矢天大人",
     "lesson": 15
   },
@@ -1125,5 +1125,96 @@
     "russian": "сейчас; теперь",
     "radicals": "王见亻𠂇土玉冂儿",
     "lesson": 15
+  },
+  {
+    "chinese": "明天",
+    "pinyin": "míngtiān",
+    "russian": "завтра",
+    "radicals": "月日天大人",
+    "lesson": 16
+  },
+  {
+    "chinese": "时间",
+    "pinyin": "shíjiān",
+    "russian": "время",
+    "radicals": "日寸门",
+    "lesson": 16
+  },
+  {
+    "chinese": "说",
+    "pinyin": "shuō",
+    "russian": "говорить (но не рассказывать)",
+    "radicals": "讠丷口儿",
+    "lesson": 16
+  },
+  {
+    "chinese": "遍",
+    "pinyin": "biàn",
+    "russian": "раз (например в «Повторите еще раз»)",
+    "radicals": "辶尸冂",
+    "lesson": 16
+  },
+  {
+    "chinese": "打球",
+    "pinyin": "dǎ qiú",
+    "russian": "играть мячом",
+    "radicals": "扌丁王求手玉氺水木",
+    "lesson": 16
+  },
+  {
+    "chinese": "打",
+    "pinyin": "dǎ",
+    "russian": "бить; ударять",
+    "radicals": "扌丁手",
+    "lesson": 16
+  },
+  {
+    "chinese": "球",
+    "pinyin": "qiú",
+    "russian": "мяч",
+    "radicals": "王求玉氺水木",
+    "lesson": 16
+  },
+  {
+    "chinese": "抱歉",
+    "pinyin": "bàoqiàn",
+    "russian": "к сожалению; сожалеть",
+    "radicals": "扌勹巳欠彐手巴人冖",
+    "lesson": 16
+  },
+  {
+    "chinese": "恐怕",
+    "pinyin": "kǒngpà",
+    "russian": "Боюсь, что...",
+    "radicals": "工几心忄白儿日",
+    "lesson": 16
+  },
+  {
+    "chinese": "怕",
+    "pinyin": "pà",
+    "russian": "бояться",
+    "radicals": "忄白日",
+    "lesson": 16
+  },
+  {
+    "chinese": "行",
+    "pinyin": "xíng",
+    "russian": "окей; хорошо; ладно",
+    "radicals": "彳丁",
+    "lesson": 16
+  },
+  {
+    "chinese": "不行",
+    "pinyin": "bù xíng",
+    "russian": "не пойдет; не могу; не получится (отказ)",
+    "radicals": "不彳丁",
+    "lesson": 16
+  },
+  {
+    "chinese": "请再说一遍",
+    "pinyin": "qǐng zài shuō yī biàn",
+    "russian": "Пожалуйста, повторите еще раз",
+    "radicals": "讠青龶土月冂一丷口儿辶尸",
+    "lesson": 16
   }
 ]

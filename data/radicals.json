@@ -77,7 +77,7 @@
   {
     "radical": "巴",
     "name_russian": "удав",
-    "strokes": "巴"
+    "strokes": "巴巳"
   },
   {
     "radical": "门",
@@ -304,7 +304,7 @@
   {
     "radical": "手",
     "name_russian": "рука",
-    "strokes": "手"
+    "strokes": "手扌"
   },
   {
     "radical": "⺷",
@@ -422,7 +422,33 @@
   {
     "radical": "水",
     "name_russian": "вода ⟨основной вариант⟩",
-    "strokes": "水"
+    "strokes": "水求氺"
+  },
+  {
+    "radical": "扌",
+    "name_russian": "рука ⟨вариант слева⟩",
+    "strokes": "扌手"
+  },
+  {
+    "radical": "求",
+    "name_russian": "умолять",
+    "strokes": "求氺水木",
+    "non_canonical": true
+  },
+  {
+    "radical": "欠",
+    "name_russian": "зевать; открывать рот",
+    "strokes": "欠人冖"
+  },
+  {
+    "radical": "工",
+    "name_russian": "работа",
+    "strokes": "工"
+  },
+  {
+    "radical": "彐",
+    "name_russian": "голова свиньи",
+    "strokes": "彐"
   },
   {
     "radical": "亾",
@@ -557,5 +583,10 @@
     "name_russian": null,
     "strokes": "丂",
     "non_canonical": true
+  },
+  {
+    "radical": "巳",
+    "name_russian": null,
+    "strokes": "巳巴"
   }
 ]
