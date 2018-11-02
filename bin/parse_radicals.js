@@ -25,7 +25,6 @@ javascript:(function(){
     }, 1000);
   }
   else {
-    window.open('https://docs.google.com/spreadsheets/d/1HsUFYPAqch4DChO28lG--tgJ90BnqlxVKdOxYck1dBQ/edit#gid=1498455902');
+    window.open('https://docs.google.com/spreadsheets/d/1KqY_IkkqvL0m-LcqjhLlceGbqbMJqBWwx3EQRnL4IGU');
   }
 }());
-youtube.com

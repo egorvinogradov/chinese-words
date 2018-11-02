@@ -16,5 +16,4 @@ javascript:csvString = $('#vocablist-section-rows .row').toArray().map(row => {
 chineseLetters = csvString.split('\n').map(str => str.split(',')[0]).join('\n');
 
 window.open(`https://translate.google.com/?source=osdd#zh-CN/ru/${encodeURIComponent(chineseLetters)}`);
-window.open('https://docs.google.com/spreadsheets/d/1HsUFYPAqch4DChO28lG--tgJ90BnqlxVKdOxYck1dBQ/edit#gid=0');
 window.open(`https://majestic-geese.egorvinogradov.com/?text=${encodeURIComponent(csvString)}`);
