@@ -1,11 +1,11 @@
-chinese-mrg
-===========
+chinese-words
+=============
 
-https://chinese-mrg.egorvinogradov.com
+https://chinese.egorvinogradov.com
 
 
 ### Set up locally
-1. `git clone git@github.com:egorvinogradov/chinese-mrg.git`
+1. `git clone git@github.com:egorvinogradov/chinese-words.git`
 2. Open https://console.developers.google.com/apis/credentials?project=chinese-mrg and click "**⇩**" to download Google Console credentials.
 3. Rename JSON file w/ the credentials into `credentials.json` and put into project root.
 4. `npm install`

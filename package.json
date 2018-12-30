@@ -1,6 +1,6 @@
 {
-  "name": "chinese-mrg",
-  "version": "1.0.1",
+  "name": "chinese-words",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "start": "google-chrome \"http://localhost:8080\" && http-server",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egorvinogradov/chinese-mrg.git"
+    "url": "git+https://github.com/egorvinogradov/chinese-words.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/egorvinogradov/chinese-mrg/issues"
+    "url": "https://github.com/egorvinogradov/chinese-words/issues"
   },
-  "homepage": "https://github.com/egorvinogradov/chinese-mrg#readme",
+  "homepage": "https://github.com/egorvinogradov/chinese-words#readme",
   "dependencies": {
     "googleapis": "^27.0.0"
   }
