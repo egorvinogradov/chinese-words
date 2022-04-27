@@ -3,7 +3,9 @@ chinese-words ([chinese-words.surge.sh](http://chinese-words.surge.sh))
 
 Web-app for learning Chinese
 
-<img width="60%" src="https://user-images.githubusercontent.com/1618344/165510169-7af0bcf3-e7e9-4267-9945-d97d11b206ca.gif">
+<img width="600" src="https://user-images.githubusercontent.com/1618344/165510169-7af0bcf3-e7e9-4267-9945-d97d11b206ca.gif"> <img width="180" src="https://user-images.githubusercontent.com/1618344/165529610-24c16230-02d3-4392-9177-9f4926773806.gif">
+
+
 
 # Docs
 [Adding new radicals](#adding-new-radicals)
