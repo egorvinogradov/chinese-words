@@ -17,13 +17,21 @@ Web-app for learning Chinese
 
 ### Set up locally
 1. Open https://console.developers.google.com/apis/credentials?project=chinese-mrg and click "**⇩**" to download Google Console credentials.
-2. Clone repo `git clone git@github.com:egorvinogradov/chinese-words.git`
-3. Rename JSON file w/ the credentials into `credentials.json` and put into project root.
-4. Install npm dependencies and start project `npm install && npm start`
+2. Then:
 ```bash
+# Clone repo
 git clone git@github.com:egorvinogradov/chinese-words.git
-mv client_secret_*.json chinese-words/credentials.json
+
+# Switch to repo folder
+cd chinese-words
+
+# Rename JSON file w/ the credentials into credentials.json and put into project root
+mv ~/Downloads/client_secret_*.json credentials.json
+
+# Install npm dependencies
 npm install
+
+# Run project
 npm start
 ```
 
