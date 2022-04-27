@@ -1,15 +1,29 @@
-chinese-words
+chinese-words ([chinese-words.surge.sh](http://chinese-words.surge.sh))
 =============
 
-https://chinese.egorvinogradov.com
+<img width="60%" src="https://user-images.githubusercontent.com/1618344/165510169-7af0bcf3-e7e9-4267-9945-d97d11b206ca.gif">
 
+# Docs
+[Adding new radicals](#adding-new-radicals)
+* [Set up locally](#set-up-locally)
+* [Update dictionary](#update-dictionary)
+* [Add words from Skritter](#add-words-from-skritter)
+* [Deploy to server](#deploy-to-server)
+
+
+## Adding new radicals
 
 ### Set up locally
-1. `git clone git@github.com:egorvinogradov/chinese-words.git`
-2. Open https://console.developers.google.com/apis/credentials?project=chinese-mrg and click "**⇩**" to download Google Console credentials.
+1. Open https://console.developers.google.com/apis/credentials?project=chinese-mrg and click "**⇩**" to download Google Console credentials.
+2. Clone repo `git clone git@github.com:egorvinogradov/chinese-words.git`
 3. Rename JSON file w/ the credentials into `credentials.json` and put into project root.
-4. `npm install`
-5. `npm start`
+4. Install npm dependencies and start project `npm install && npm start`
+```bash
+git clone git@github.com:egorvinogradov/chinese-words.git
+mv client_secret_*.json chinese-words/credentials.json
+npm install
+npm start
+```
 
 ### Update dictionary
 1. Add new radicals and related strokes to [Chinese MRG: Radicals Spreadsheet](https://docs.google.com/spreadsheets/d/1KqY_IkkqvL0m-LcqjhLlceGbqbMJqBWwx3EQRnL4IGU/edit#gid=1498455902)
