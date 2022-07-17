@@ -200,10 +200,10 @@ body, input {
 
 @media (max-width: 700px) {
   .search__input {
-    padding-left: 40px;
+    padding-left: 54px;
   }
   .info__icon {
-    transform: translate(-5px, -1px);
+    transform: translate(0px, -2px);
   }
 }
 
@@ -303,4 +303,23 @@ body, input {
   color: #efe934;
   transform: scale(1.5) translateY(-1px);
   display: inline-block;
+}
+
+
+
+@media (max-width: 700px) {
+  body {
+    --height-search: 50px;
+    background: white;
+  }
+  .search {
+    background: white;
+    box-shadow: 0 -25px 0 white;
+  }
+  .words__play {
+    margin: 0 8px;
+  }
+  .search__input {
+    outline: none;
+  }
 }
